@@ -7,7 +7,7 @@ $(document).ready(function() {
     });
 
     function AdjustHeader(){
-        if ($(window).scrollTop() > 80) {
+        if ($(window).scrollTop() > 200) {
             if (!navbar.hasClass("position-fixed")) {
                 navbar.addClass("position-fixed");
             }
@@ -16,7 +16,6 @@ $(document).ready(function() {
         }
     }
 
-    $('#slider').carousel();
 
 
 });
