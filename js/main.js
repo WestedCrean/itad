@@ -16,9 +16,7 @@ $(document).ready(function() {
         }
     }
 
-    $('#slider').carousel({
-        interval: 2000
-    });
+    $('#slider').carousel();
 
 
 });
