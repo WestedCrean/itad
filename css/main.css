@@ -133,6 +133,7 @@ textarea {
     transition: .2s ease
 }
 
+
 .sticky {
     position: fixed;
     top: 0;
@@ -140,7 +141,7 @@ textarea {
 }
 
 .sticky + #main {
-    padding-top: 60px;
+    padding-top: 215px;
 }
 
 /* ---- navbar end ---- */

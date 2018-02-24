@@ -36,6 +36,7 @@
 
 <!-- navbar -->
 <div id="navbar">
+    <img id="nav-logo" src="img/logoWhite-small.png" alt="logo">
     <a class="nav-link" href="#co-anchor">Co?</a>
     <a class="nav-link" href="#co-anchor">Kiedy?</a>
     <a class="nav-link" href="#gdzie-anchor">Gdzie?</a>
@@ -47,6 +48,7 @@
 <div id="main">
     <h1 id="co">IT Academic day </h1>
     <h3 id="kiedy">10 kwietnia 2018</h3>
+    <div id="logos"></div>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> <p>Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam </p>
     <h1> DUPA </h1>
     <p>pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam rhoncus, urna quam viverra nisi, in interdum massa nibh nec erat.</p>
@@ -77,11 +79,11 @@
                 <img class="d-block img-fluid" src="img/zdjecie6.jpg" alt="Zdjecie6">
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#slider" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
@@ -110,12 +112,17 @@
 
     var navbar = document.getElementById("navbar");
     var sticky = navbar.offsetTop;
+    var logo = document.getElementById("nav-logo");
+
+    logo.css("visibility", "hidden");
 
     function myFunction() {
         if (window.pageYOffset >= sticky) {
             navbar.classList.add("sticky")
+            logo.css('visibility', 'visible');
         } else {
             navbar.classList.remove("sticky");
+            logo.css('visibility', 'hidden');
         }
     }
 </script>
