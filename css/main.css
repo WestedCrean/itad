@@ -104,6 +104,7 @@ textarea {
     float: left;
     width: 280px;
     padding: 40px 0px 0px 100px;
+    z-index: 1;
 }
 
 #navbar {
@@ -112,12 +113,13 @@ textarea {
     padding: 0px;
     width: 100%;
     text-align: center;
+    z-index: 2;
 }
 
 #navbar a {
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 20px;
-    display: inline-block;;
+    display: inline-block;
     color: #f2f2f2;
     text-align: center;
     transition: .1s background-color;
@@ -126,9 +128,13 @@ textarea {
     width:10%;
 }
 
-#navbar a:hover{
+#navbar a:hover {
     background-color: #4D00BC;
     transition: .2s ease
+}
+
+.nav-link {
+
 }
 
 
@@ -137,6 +143,7 @@ textarea {
     font-family: "Roboto", "Arial", sans-serif;
     color: inherit;
     padding:60px;
+    padding-bottom: 500px;
     text-align: center;
 }
 
@@ -148,10 +155,12 @@ body {
 
 h1 {
     text-align: center;
-    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 h3 {
-
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 p {
