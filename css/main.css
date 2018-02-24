@@ -160,6 +160,14 @@ textarea {
     visibility: hidden;
 }
 
+#pollub-weii {
+    display: inline-block;
+}
+
+.logo {
+    padding: 10px 40px 30px 40px;
+}
+
 body {
     background-color: #e3e3e3;
     overflow-y: scroll;
