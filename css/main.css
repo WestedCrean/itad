@@ -99,6 +99,19 @@ textarea {
 #banner {
     background-color: #fff;
     width: 100%;
+
+}
+
+.itadlogo{
+    float: left;
+    width: 280px;
+    padding: 40px 0px 0px 100px;
+    z-index: 1;
+}
+
+#fb-logo {
+    font-size: 1.5em;
+    display: inline-block;
 }
 .logo{
     float: left;
@@ -133,6 +146,10 @@ textarea {
     transition: .2s ease
 }
 
+#fb-logo a:hover {
+    background-color: #4500a7;
+    transition: .2s ease
+}
 
 .sticky {
     position: fixed;
