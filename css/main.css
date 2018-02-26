@@ -113,7 +113,7 @@ header h1 {
   font-size: 42px;
   color: #fff;
   line-height: 230px;
-  margin-left: 20px;
+  margin: 0 100px 0 0;
   text-transform: uppercase;
   font-weight: 100;
 }
@@ -122,7 +122,7 @@ header nav {
   position: absolute;
   bottom: 0;
   height: 60px;
-  line-height: 60px;
+  line-height: 48px;
   width: 100%;
   background-color: #381D94;
 }
@@ -138,9 +138,11 @@ header nav a {
 /* line 55, ../sass/main.scss */
 header nav a:hover {
   background-color: #4500a7;
+  color: #fff;
+  text-decoration: none;
 }
 
-/* line 62, ../sass/main.scss */
+/* line 64, ../sass/main.scss */
 h2 {
   font-size: 34px;
   text-transform: uppercase;
@@ -149,21 +151,21 @@ h2 {
   color: #2c3e50;
 }
 
-/* line 69, ../sass/main.scss */
+/* line 71, ../sass/main.scss */
 p {
   margin-bottom: 2rem;
   line-height: 2;
   color: #7f8c8d;
 }
 
-/* line 74, ../sass/main.scss */
+/* line 76, ../sass/main.scss */
 .main-wrapper {
   background: #ecf0f1;
   width: 800px;
   margin: 0 auto;
 }
 
-/* line 79, ../sass/main.scss */
+/* line 81, ../sass/main.scss */
 section {
   padding: 20px;
   margin-bottom: 40px;
@@ -178,16 +180,16 @@ section {
 
 /* Sticky Header Style */
 /* ---------------------------------------- */
-/* line 89, ../sass/main.scss */
+/* line 91, ../sass/main.scss */
 body.sticky-header {
   padding-top: 100px;
 }
-/* line 91, ../sass/main.scss */
+/* line 93, ../sass/main.scss */
 body.sticky-header header {
   height: 60px;
   background-color: #3e1fa2;
 }
-/* line 94, ../sass/main.scss */
+/* line 96, ../sass/main.scss */
 body.sticky-header header #banner {
   -moz-transform: scale(0, 0);
   -ms-transform: scale(0, 0);

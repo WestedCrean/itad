@@ -33,7 +33,7 @@ header{
         font-size: 42px;
         color: #fff;
         line-height: 230px;
-        margin-left: 20px;
+        margin: 0 100px 0 0;
         text-transform: uppercase;
         font-weight: 100;
     }
@@ -42,7 +42,7 @@ header{
         position: absolute;
         bottom: 0;
         height: 60px;
-        line-height: 60px;
+        line-height: 48px;
         width: 100%;
         background-color: #381D94;
         a{
@@ -54,6 +54,8 @@ header{
             background-color: #381D94;
             &:hover{
                 background-color: #4500a7;
+                color: #fff;
+                text-decoration: none;
             }
         }
     }
