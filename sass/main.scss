@@ -23,19 +23,20 @@ header{
     overflow: hidden;
     @include transition(all .5s ease);
 
+    #banner{
+        @include transition(all .3s ease);
+    }
     #itadlogo-header {
         float: left;
-        margin: 50px 50px;
-        @include transition(all .3s ease);
+        margin: 50px 0px 50px 50px;
     }
     h1{
         font-size: 42px;
         color: #fff;
         line-height: 230px;
-        margin-left: 200px;
+        margin-left: 20px;
         text-transform: uppercase;
         font-weight: 100;
-        @include transition(all .3s ease);
     }
 
     nav{
@@ -51,8 +52,9 @@ header{
             padding: 22px 15px;
             line-height: 1;
             text-decoration: none;
+            background-color: #381D94;
             &:hover{
-                background-color: #3498db;
+                background-color: #4500a7;
             }
         }
     }
@@ -70,7 +72,8 @@ p{
     line-height: 2;
     color: #7f8c8d;
 }
-.wrapper{
+.main-wrapper{
+    background
     width: 800px;
     margin: 0 auto;
 }
@@ -88,11 +91,8 @@ body.sticky-header{
     padding-top: 100px;
     header{
         height: 60px;
-        background-color: rgba(62,31,162,.1);
-        #itadlogo-header{
-            @include scale(0);
-        }
-        h1{
+        background-color: rgb(62,31,162);
+        #banner{
             @include scale(0);
         }
     }

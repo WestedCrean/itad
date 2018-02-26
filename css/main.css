@@ -158,12 +158,12 @@ p {
 }
 
 /* line 73, ../sass/main.scss */
-.wrapper {
+.main-wrapper {
   width: 800px;
   margin: 0 auto;
 }
 
-/* line 77, ../sass/main.scss */
+/* line 78, ../sass/main.scss */
 section {
   padding: 20px;
   margin-bottom: 40px;
@@ -178,23 +178,23 @@ section {
 
 /* Sticky Header Style */
 /* ---------------------------------------- */
-/* line 87, ../sass/main.scss */
+/* line 88, ../sass/main.scss */
 body.sticky-header {
   padding-top: 100px;
 }
-/* line 89, ../sass/main.scss */
+/* line 90, ../sass/main.scss */
 body.sticky-header header {
   height: 60px;
   background-color: rgba(62, 31, 162, 0.1);
 }
-/* line 92, ../sass/main.scss */
+/* line 93, ../sass/main.scss */
 body.sticky-header header #itadlogo-header {
   -moz-transform: scale(0, 0);
   -ms-transform: scale(0, 0);
   -webkit-transform: scale(0, 0);
   transform: scale(0, 0);
 }
-/* line 95, ../sass/main.scss */
+/* line 96, ../sass/main.scss */
 body.sticky-header header h1 {
   -moz-transform: scale(0, 0);
   -ms-transform: scale(0, 0);
