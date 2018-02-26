@@ -167,8 +167,3 @@ body.sticky-header{
         }
     }
 }
-
-nav.show-logo {
-    visibility: visible;
-    @include transition(all .2 ease);
-}

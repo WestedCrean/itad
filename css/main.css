@@ -266,12 +266,3 @@ body.sticky-header header #banner {
   -webkit-transform: scale(0, 0);
   transform: scale(0, 0);
 }
-
-/* line 171, ../sass/main.scss */
-nav.show-logo {
-  visibility: visible;
-  -moz-transition: all ease;
-  -o-transition: all ease;
-  -webkit-transition: all ease;
-  transition: all ease;
-}
