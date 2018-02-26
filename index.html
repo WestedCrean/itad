@@ -38,10 +38,10 @@
 <body>
 <!-- navbar -->
 <header>
-
-        <h1><img src="img/itadlogo.png" id="itadlogo-header">IT Academic Days</h1> <img src="img/"><img src="img/polllubnet-logoblack-small.png" id="dotnetlogo-header">
-    <h3>10 kwietnia 2018</h3>
+        <h1><img src="img/itadlogo.png" id="itadlogo-header">IT Academic Days</h1> <img src="img/pollub-logo.png" class="img-fluid">
+        <p>10 kwietnia 2018</p>
     <nav>
+        <img src="img/logoWhite-small.png" id="itadlogo-navbar">
         <a href="#top">Co?</a>
         <a href="#gdzie-anchor">Gdzie?</a>
         <a href="#galeria-anchor">Galeria</a>
@@ -105,22 +105,27 @@
 </div>
 <div id="partnerzy">
 </div>
+<footer>
+    <img src="img/pollubnet-logoblack.png">
+    <p>Copyright © pollub.NET</p>
+</footer>
 <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
 <script>
     window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
     ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
 </script>
 <script src="https://www.google-analytics.com/analytics.js" async defer></script>
-<!-- Sticky navbar -->
 <script>
-
+    //Sticky navbar
     $(function(){
         $(window).scroll(function(){
             var winTop = $(window).scrollTop();
             if(winTop >= 30){
                 $("body").addClass("sticky-header");
+                $("#itadlogo-navbar").removeClass("show-logo");
             }else{
                 $("body").removeClass("sticky-header");
+                $("#itadlogo-navbar").removeClass("show-logo");
             }
         });
     });
