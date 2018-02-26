@@ -22,6 +22,12 @@ header{
     top: 0;
     overflow: hidden;
     @include transition(all .5s ease);
+
+    #itadlogo-header {
+        float: left;
+        margin: 50px 50px;
+        @include transition(all .3s ease);
+    }
     h1{
         font-size: 42px;
         color: #fff;
@@ -50,11 +56,6 @@ header{
             }
         }
     }
-}
-
-.itadlogo {
-    float: left;
-    padding: 50px 50px;
 }
 
 h2{
@@ -88,6 +89,9 @@ body.sticky-header{
     header{
         height: 60px;
         background-color: rgba(62,31,162,.1);
+        #itadlogo-header{
+            @include scale(0);
+        }
         h1{
             @include scale(0);
         }
