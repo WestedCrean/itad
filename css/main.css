@@ -72,7 +72,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 8, ../sass/main.scss */
 body {
-  background-color: #4500a7;
+  background-color: #4500a7 !important;
   font-family: "Helvetica Neue", arial, sans-serif;
   font-size: 16px;
   padding-top: 330px;
@@ -113,11 +113,11 @@ header h1 {
   font-size: 42px;
   color: #fff;
   line-height: 230px;
-  margin: 0 100px 0 0;
+  padding: 0 100px 0 0;
   text-transform: uppercase;
   font-weight: 100;
 }
-/* line 41, ../sass/main.scss */
+/* line 42, ../sass/main.scss */
 header nav {
   position: absolute;
   bottom: 0;
@@ -126,7 +126,7 @@ header nav {
   width: 100%;
   background-color: #381D94;
 }
-/* line 48, ../sass/main.scss */
+/* line 50, ../sass/main.scss */
 header nav a {
   color: #fff;
   display: inline-block;
@@ -135,14 +135,14 @@ header nav a {
   text-decoration: none;
   background-color: #381D94;
 }
-/* line 55, ../sass/main.scss */
+/* line 58, ../sass/main.scss */
 header nav a:hover {
   background-color: #4500a7;
   color: #fff;
   text-decoration: none;
 }
 
-/* line 64, ../sass/main.scss */
+/* line 67, ../sass/main.scss */
 h2 {
   font-size: 34px;
   text-transform: uppercase;
@@ -151,24 +151,30 @@ h2 {
   color: #2c3e50;
 }
 
-/* line 71, ../sass/main.scss */
+/* line 75, ../sass/main.scss */
 p {
   margin-bottom: 2rem;
   line-height: 2;
   color: #7f8c8d;
 }
 
-/* line 76, ../sass/main.scss */
-.main-wrapper {
-  background: #ecf0f1;
+/* line 80, ../sass/main.scss */
+#main-wrapper {
+  background: #4500a7;
   width: 800px;
   margin: 0 auto;
 }
+/* line 86, ../sass/main.scss */
+#main-wrapper h2 {
+  color: #e9b600;
+  margin: 40px 30px;
+  text-align: center;
+}
 
-/* line 81, ../sass/main.scss */
+/* line 94, ../sass/main.scss */
 section {
   padding: 20px;
-  margin-bottom: 40px;
+  margin: 0px 0px 40px 0px;
   background-color: #fff;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -180,16 +186,16 @@ section {
 
 /* Sticky Header Style */
 /* ---------------------------------------- */
-/* line 91, ../sass/main.scss */
+/* line 105, ../sass/main.scss */
 body.sticky-header {
   padding-top: 100px;
 }
-/* line 93, ../sass/main.scss */
+/* line 107, ../sass/main.scss */
 body.sticky-header header {
   height: 60px;
   background-color: #3e1fa2;
 }
-/* line 96, ../sass/main.scss */
+/* line 110, ../sass/main.scss */
 body.sticky-header header #banner {
   -moz-transform: scale(0, 0);
   -ms-transform: scale(0, 0);
