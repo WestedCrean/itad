@@ -7,7 +7,7 @@
 
 body{
     background-color: #4500a7;
-    font-family: helvetica, arial, sans-serif;
+    font-family: "Helvetica Neue", arial, sans-serif;
     font-size: 16px;
     padding-top: 330px;
     @include transition(padding-top .5s ease);
@@ -17,7 +17,7 @@ header{
     height: 300px;
     background-color: #4500a7;
     text-align: center;
-    position: relative;
+    position: fixed;
     top: 0;
     overflow: hidden;
     @include transition(all .5s ease);
@@ -72,7 +72,7 @@ p{
     color: #7f8c8d;
 }
 .main-wrapper{
-    background: #381D94;
+    background: #ecf0f1;
     width: 800px;
     margin: 0 auto;
 }
