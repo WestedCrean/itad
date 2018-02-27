@@ -238,7 +238,7 @@ footer {
 /* Sticky Header Style */
 /* ---------------------------------------- */
 body.sticky-header {
-  padding-top: 350px;
+  padding-top: 250px;
 }
 body.sticky-header header {
   height: 60px;
@@ -267,5 +267,7 @@ body.sticky-header header #floatlogo {
   transform: translate(0, 100%);
   visibility: visible;
 }
+
+
 
 
