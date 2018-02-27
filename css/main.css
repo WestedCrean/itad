@@ -209,6 +209,7 @@ header nav a:hover {
 
 iframe {
   display: block;
+  text-align: center;
   margin: 30px auto;
 }
 
