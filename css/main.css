@@ -238,7 +238,7 @@ footer {
 /* Sticky Header Style */
 /* ---------------------------------------- */
 body.sticky-header {
-  padding-top: 400px;
+  padding-top: 500px;
 }
 body.sticky-header header {
   height: 60px;
