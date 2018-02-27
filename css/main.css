@@ -82,7 +82,7 @@ body {
   transition: padding-top 0.5s ease;
 }
 
-/* line 16, ../sass/main.scss */
+/* line 19, ../sass/main.scss */
 header {
   width: 100%;
   height: 270px;
@@ -91,17 +91,10 @@ header {
   position: fixed;
   top: 0;
   overflow: hidden;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-/* line 26, ../sass/main.scss */
-header #banner {
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  -moz-transition: all 0.5s ease-in, all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in, all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in, all 0.5s ease-in-out;
+  transition: all 0.5s ease-in, all 0.5s ease-in-out;
 }
 /* line 29, ../sass/main.scss */
 header h1 {
@@ -113,23 +106,28 @@ header h1 {
   float: left;
   text-transform: uppercase;
   font-weight: 100;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease-in-out, all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out, all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out, all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out, all 0.3s ease-in-out;
 }
 /* line 41, ../sass/main.scss */
+header h1 .date {
+  font-size: 0.5em;
+  color: #e9b600;
+}
+/* line 46, ../sass/main.scss */
 header h1 img {
   display: block;
   float: left;
   padding: 50px 50px;
 }
-/* line 48, ../sass/main.scss */
+/* line 53, ../sass/main.scss */
 header img {
   text-align: right;
   padding: 30px 20px;
 }
-/* line 53, ../sass/main.scss */
+/* line 58, ../sass/main.scss */
 header p {
   color: #e3e3e3;
   text-align: left;
@@ -138,7 +136,7 @@ header p {
   font-weight: lighter;
   text-transform: uppercase;
 }
-/* line 63, ../sass/main.scss */
+/* line 68, ../sass/main.scss */
 header nav {
   position: absolute;
   bottom: 0;
@@ -146,14 +144,6 @@ header nav {
   line-height: 48px;
   width: 100%;
   background-color: #381D94;
-}
-/* line 71, ../sass/main.scss */
-header nav #itadlogo-navbar {
-  visibility: hidden;
-  -moz-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
-  -webkit-transition: all 0.2s ease;
-  transition: all 0.2s ease;
 }
 /* line 76, ../sass/main.scss */
 header nav a {
@@ -172,56 +162,13 @@ header nav a:hover {
 }
 
 /* line 93, ../sass/main.scss */
-h2 {
-  font-size: 34px;
-  text-transform: uppercase;
-  font-weight: 100;
-  line-height: 2;
-  color: #2c3e50;
-}
-
-/* line 101, ../sass/main.scss */
-p {
-  margin-bottom: 2rem;
-  line-height: 2;
-  color: #7f8c8d;
-}
-
-/* line 106, ../sass/main.scss */
 #main-wrapper {
   background: #4500a7;
   width: 800px;
   margin: 0 auto;
-  z-index: -2;
 }
-/* line 113, ../sass/main.scss */
-#main-wrapper h2 {
-  color: #82e7b7;
-  margin: 40px 30px;
-  text-align: center;
-}
-
-/* line 121, ../sass/main.scss */
-iframe {
-  display: block;
-  margin: 30px auto;
-}
-
-/* line 125, ../sass/main.scss */
-#slider {
-  position: relative;
-  display: block;
-  margin: 30px auto;
-  z-index: 1;
-}
-
-/* line 132, ../sass/main.scss */
-.carousel-inner img {
-  margin: auto;
-}
-
-/* line 136, ../sass/main.scss */
-section {
+/* line 99, ../sass/main.scss */
+#main-wrapper section {
   padding: 20px;
   margin: 0 0 40px 0;
   background-color: #fff;
@@ -232,15 +179,63 @@ section {
   -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
 }
+/* line 106, ../sass/main.scss */
+#main-wrapper section h2 {
+  font-size: 34px;
+  text-transform: uppercase;
+  font-weight: 100;
+  line-height: 2;
+  color: #2c3e50;
+  text-align: left;
+}
+/* line 115, ../sass/main.scss */
+#main-wrapper section p {
+  margin-bottom: 2rem;
+  line-height: 2;
+  color: #7f8c8d;
+}
+/* line 120, ../sass/main.scss */
+#main-wrapper section p .highlight {
+  color: #e9b600;
+  text-transform: uppercase;
+}
+/* line 128, ../sass/main.scss */
+#main-wrapper h2 {
+  font-size: 34px;
+  text-transform: uppercase;
+  font-weight: 100;
+  line-height: 2;
+  color: #000000;
+  text-align: center;
+}
 
-/* line 145, ../sass/main.scss */
+/* line 138, ../sass/main.scss */
+iframe {
+  display: block;
+  margin: 30px auto;
+}
+
+/* line 142, ../sass/main.scss */
+#slider {
+  position: relative;
+  display: block;
+  margin: 30px auto;
+  z-index: 1;
+}
+
+/* line 149, ../sass/main.scss */
+.carousel-inner img {
+  margin: auto;
+}
+
+/* line 154, ../sass/main.scss */
 #partnerzy {
   height: 400px;
   width: 100%;
   background-color: #fff;
 }
 
-/* line 151, ../sass/main.scss */
+/* line 160, ../sass/main.scss */
 footer {
   background-color: #4500a7;
   color: #fff;
@@ -249,18 +244,18 @@ footer {
 
 /* Sticky Header Style */
 /* ---------------------------------------- */
-/* line 159, ../sass/main.scss */
+/* line 168, ../sass/main.scss */
 body.sticky-header {
   padding-top: 100px;
 }
-/* line 161, ../sass/main.scss */
+/* line 170, ../sass/main.scss */
 body.sticky-header header {
   height: 60px;
   z-index: 3;
   background-color: #3e1fa2;
 }
-/* line 165, ../sass/main.scss */
-body.sticky-header header #banner {
+/* line 174, ../sass/main.scss */
+body.sticky-header header h1 {
   -moz-transform: scale(0, 0);
   -ms-transform: scale(0, 0);
   -webkit-transform: scale(0, 0);
