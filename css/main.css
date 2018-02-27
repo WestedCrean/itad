@@ -164,7 +164,8 @@ header nav a:hover {
   margin: 0 auto;
 }
 #main-wrapper section {
-  margin: 300px 20px 20px 20px;
+  padding: 20px;
+  margin-top: 200px;
   background-color: #fff;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -266,4 +267,6 @@ body.sticky-header header #floatlogo {
   transform: translate(0, 100%);
   visibility: visible;
 }
+
+
 
