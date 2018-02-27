@@ -64,7 +64,7 @@ body {
   background-color: #4500a7 !important;
   font-family: "Helvetica Neue", arial, sans-serif;
   font-size: 16px;
-  padding-top: 430px;
+  padding-top: 350px;
   -moz-transition: padding-top 0.5s ease;
   -o-transition: padding-top 0.5s ease;
   -webkit-transition: padding-top 0.5s ease;
@@ -238,7 +238,7 @@ footer {
 /* Sticky Header Style */
 /* ---------------------------------------- */
 body.sticky-header {
-  padding-top: 350px;
+  padding-top: 400px;
 }
 body.sticky-header header {
   height: 60px;
@@ -267,5 +267,4 @@ body.sticky-header header #floatlogo {
   transform: translate(0, 100%);
   visibility: visible;
 }
-
 
