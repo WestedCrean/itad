@@ -95,6 +95,16 @@ header {
   -o-transition: all 0.5s ease-in, all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in, all 0.5s ease-in-out;
   transition: all 0.5s ease-in, all 0.5s ease-in-out;
+  /*
+  #floatlogo{
+      z-index: 40;
+      position: absolute;
+      visibility: hidden;
+      left: 300px;
+      padding-top: 18px;
+      @include transition(all 0.6s ease-in, all 0.5s ease-in-out);
+  }
+  */
 }
 /* line 29, ../sass/main.scss */
 header h1 {
@@ -114,7 +124,7 @@ header h1 {
 /* line 41, ../sass/main.scss */
 header h1 .date {
   font-size: 0.5em;
-  color: #e9b600;
+  color: #09e980;
 }
 /* line 46, ../sass/main.scss */
 header h1 img {
@@ -122,12 +132,16 @@ header h1 img {
   float: left;
   padding: 50px 50px;
 }
-/* line 53, ../sass/main.scss */
+/* line 63, ../sass/main.scss */
 header img {
   text-align: right;
   padding: 30px 20px;
+  -moz-transition: all 0.5s ease-in, all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in, all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in, all 0.5s ease-in-out;
+  transition: all 0.5s ease-in, all 0.5s ease-in-out;
 }
-/* line 58, ../sass/main.scss */
+/* line 69, ../sass/main.scss */
 header p {
   color: #e3e3e3;
   text-align: left;
@@ -136,7 +150,7 @@ header p {
   font-weight: lighter;
   text-transform: uppercase;
 }
-/* line 68, ../sass/main.scss */
+/* line 79, ../sass/main.scss */
 header nav {
   position: absolute;
   bottom: 0;
@@ -145,7 +159,11 @@ header nav {
   width: 100%;
   background-color: #381D94;
 }
-/* line 76, ../sass/main.scss */
+/* line 87, ../sass/main.scss */
+header nav .buttons {
+  margin: 0 100px;
+}
+/* line 91, ../sass/main.scss */
 header nav a {
   color: #fff;
   display: inline-block;
@@ -154,20 +172,20 @@ header nav a {
   text-decoration: none;
   background-color: #381D94;
 }
-/* line 84, ../sass/main.scss */
+/* line 99, ../sass/main.scss */
 header nav a:hover {
   background-color: #4300b6;
   color: #fff;
   text-decoration: none;
 }
 
-/* line 93, ../sass/main.scss */
+/* line 108, ../sass/main.scss */
 #main-wrapper {
   background: #4500a7;
   width: 800px;
   margin: 0 auto;
 }
-/* line 99, ../sass/main.scss */
+/* line 114, ../sass/main.scss */
 #main-wrapper section {
   padding: 20px;
   margin: 0 0 40px 0;
@@ -179,7 +197,7 @@ header nav a:hover {
   -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
 }
-/* line 106, ../sass/main.scss */
+/* line 121, ../sass/main.scss */
 #main-wrapper section h2 {
   font-size: 34px;
   text-transform: uppercase;
@@ -188,42 +206,42 @@ header nav a:hover {
   color: #2c3e50;
   text-align: left;
 }
-/* line 115, ../sass/main.scss */
+/* line 130, ../sass/main.scss */
 #main-wrapper section p {
   margin-bottom: 2rem;
   line-height: 2;
   color: #7f8c8d;
 }
-/* line 120, ../sass/main.scss */
+/* line 135, ../sass/main.scss */
 #main-wrapper section p .highlight {
   color: #e9b600;
   text-transform: uppercase;
 }
-/* line 128, ../sass/main.scss */
+/* line 143, ../sass/main.scss */
 #main-wrapper a {
   display: block;
   position: relative;
-  top: -60px;
+  top: -160px;
   margin: 20px 0;
   visibility: hidden;
 }
-/* line 136, ../sass/main.scss */
+/* line 151, ../sass/main.scss */
 #main-wrapper h2 {
   font-size: 34px;
   text-transform: uppercase;
   font-weight: 100;
   line-height: 2;
-  color: #000000;
+  color: #09e980;
   text-align: center;
 }
 
-/* line 146, ../sass/main.scss */
+/* line 161, ../sass/main.scss */
 iframe {
   display: block;
   margin: 30px auto;
 }
 
-/* line 150, ../sass/main.scss */
+/* line 165, ../sass/main.scss */
 #slider {
   position: relative;
   display: block;
@@ -231,19 +249,19 @@ iframe {
   z-index: 1;
 }
 
-/* line 157, ../sass/main.scss */
+/* line 172, ../sass/main.scss */
 .carousel-inner img {
   margin: auto;
 }
 
-/* line 162, ../sass/main.scss */
+/* line 177, ../sass/main.scss */
 #partnerzy {
   height: 400px;
   width: 100%;
   background-color: #fff;
 }
 
-/* line 168, ../sass/main.scss */
+/* line 183, ../sass/main.scss */
 footer {
   background-color: #4500a7;
   color: #fff;
@@ -252,20 +270,38 @@ footer {
 
 /* Sticky Header Style */
 /* ---------------------------------------- */
-/* line 176, ../sass/main.scss */
+/* line 191, ../sass/main.scss */
 body.sticky-header {
   padding-top: 100px;
 }
-/* line 178, ../sass/main.scss */
+/* line 193, ../sass/main.scss */
 body.sticky-header header {
   height: 60px;
   z-index: 3;
   background-color: #3e1fa2;
 }
-/* line 182, ../sass/main.scss */
+/* line 197, ../sass/main.scss */
 body.sticky-header header h1 {
   -moz-transform: scale(0, 0);
   -ms-transform: scale(0, 0);
   -webkit-transform: scale(0, 0);
   transform: scale(0, 0);
+  transform: translate(0, 100%);
+}
+/* line 201, ../sass/main.scss */
+body.sticky-header header #pollublogo {
+  -moz-transform: scale(0, 0);
+  -ms-transform: scale(0, 0);
+  -webkit-transform: scale(0, 0);
+  transform: scale(0, 0);
+  transform: translate(100%, 0);
+}
+/* line 205, ../sass/main.scss */
+body.sticky-header header #floatlogo {
+  -moz-transform: scale(0, 0);
+  -ms-transform: scale(0, 0);
+  -webkit-transform: scale(0, 0);
+  transform: scale(0, 0);
+  transform: translate(0, 100%);
+  visibility: visible;
 }

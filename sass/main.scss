@@ -40,7 +40,7 @@ header{
 
         .date{
             font-size: 0.5em;
-            color: #e9b600;
+            color: #09e980;
         }
 
         img {
@@ -49,10 +49,21 @@ header{
             padding: 50px 50px;
         }
     }
+    /*
+    #floatlogo{
+        z-index: 40;
+        position: absolute;
+        visibility: hidden;
+        left: 300px;
+        padding-top: 18px;
+        @include transition(all 0.6s ease-in, all 0.5s ease-in-out);
+    }
+    */
 
     img {
         text-align: right;
         padding: 30px 20px;
+        @include transition(all 0.5s ease-in, all 0.5s ease-in-out);
     }
 
     p{
@@ -72,6 +83,10 @@ header{
         line-height: 48px;
         width: 100%;
         background-color: #381D94;
+
+        .buttons{
+            margin: 0 100px;
+        }
 
         a{
             color: #fff;
@@ -138,7 +153,7 @@ header{
         text-transform: uppercase;
         font-weight: 100;
         line-height: 2;
-        color: #000000;
+        color: #09e980;
         text-align: center;
     }
 }
@@ -181,6 +196,16 @@ body.sticky-header{
         background-color: rgb(62,31,162);
         h1{
             @include scale(0);
+            transform: translate(0, 100%);
+        }
+        #pollublogo{
+            @include scale(0);
+            transform: translate(100%, 0);
+        }
+        #floatlogo{
+            @include scale(0);
+            transform: translate(0, 100%);
+            visibility: visible;
         }
     }
 }
