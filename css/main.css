@@ -250,22 +250,23 @@ iframe {
 #slider {
   position: relative;
   display: block;
+  overflow: auto;
   margin: 30px auto;
 }
 
-/* line 177, ../sass/main.scss */
+/* line 178, ../sass/main.scss */
 .carousel-inner img {
   margin: auto;
 }
 
-/* line 182, ../sass/main.scss */
+/* line 183, ../sass/main.scss */
 #partnerzy {
   height: 400px;
   max-width: 100%;
   background-color: #fff;
 }
 
-/* line 188, ../sass/main.scss */
+/* line 189, ../sass/main.scss */
 footer {
   background-color: #4500a7;
   color: #fff;
@@ -275,17 +276,17 @@ footer {
 
 /* Sticky Header Style */
 /* ---------------------------------------- */
-/* line 197, ../sass/main.scss */
+/* line 198, ../sass/main.scss */
 body.sticky-header {
   padding-top: 150px;
 }
-/* line 199, ../sass/main.scss */
+/* line 200, ../sass/main.scss */
 body.sticky-header header {
   height: 60px;
   z-index: 3;
   background-color: #3e1fa2;
 }
-/* line 203, ../sass/main.scss */
+/* line 204, ../sass/main.scss */
 body.sticky-header header h1 {
   -moz-transform: scale(0, 0);
   -ms-transform: scale(0, 0);
@@ -293,7 +294,7 @@ body.sticky-header header h1 {
   transform: scale(0, 0);
   transform: translate(0, 100%);
 }
-/* line 207, ../sass/main.scss */
+/* line 208, ../sass/main.scss */
 body.sticky-header header #itadlogo-header {
   -moz-transform: scale(0, 0);
   -ms-transform: scale(0, 0);
@@ -301,7 +302,7 @@ body.sticky-header header #itadlogo-header {
   transform: scale(0, 0);
   transform: translate(0, 100%);
 }
-/* line 211, ../sass/main.scss */
+/* line 212, ../sass/main.scss */
 body.sticky-header header #pollublogo {
   -moz-transform: scale(0, 0);
   -ms-transform: scale(0, 0);
