@@ -31,9 +31,13 @@
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
 <script src="js/plugins.js"></script>
-<!-- <script src="js/main.js"></script> -->
+<script src="js/main.js"></script>
+<!-- bootstrap -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <script src="js/bootstrap.js"></script>
+<!-- jquery bcSwipe credits to maaaaark (https://github.com/maaaaark/bcSwipe) -->
+<script src="bootstrap/js/bootstrap.js"></script>
+<script src="jquery.bcSwipe.js"></script>
 <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 <body>
 <!-- navbar -->
@@ -112,36 +116,6 @@
     ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
 </script>
 <script src="https://www.google-analytics.com/analytics.js" async defer></script>
-<script>
-    //Sticky navbar
-    $(function(){
-        $(window).scroll(function(){
-            var winTop = $(window).scrollTop();
-            if(winTop >= 30){
-                $("body").addClass("sticky-header");
-                ("#itadlogo-navbar").css("visibility","visible");
-            }else{
-                $("body").removeClass("sticky-header");
-                $("#itadlogo-navbar").css("visibility","hidden");
-            }
-        });
-    });
-    //Smooth nav link scrolling
-    $(document).ready(function(){
-        $('a[href^="#"]').on('click',function (e) {
-            e.preventDefault();
-
-            var target = this.hash;
-            var $target = $(target);
-
-            $('html, body').stop().animate({
-                'scrollTop': $target.offset().top
-            }, 600, 'swing', function () {
-                window.location.hash = target;
-            });
-        });
-    });
-</script>
-
+<!-- created by Wiktor Flis, wikflis@gmail.com-->
 </body>
 </html>
