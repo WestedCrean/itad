@@ -26,11 +26,19 @@ header{
     overflow: hidden;
     @include transition(all 0.5s ease-in, all 0.5s ease-in-out);
 
+    #itadlogo-header {
+        display: block;
+        float: left;
+        //padding: 50px 50px;
+        margin: 10px auto;
+        @include transition(all 0.3s ease-in-out, all 0.3s ease-in-out);
+    }
+
     h1{
         font-size: 42px;
         color: #fff;
         line-height: 230px;
-        margin: 0 100px 0 0;
+        //margin: 0 100px 0 0;
         display: block;
         float: left;
 
@@ -41,12 +49,6 @@ header{
         .date{
             font-size: 0.5em;
             color: #09e980;
-        }
-
-        img {
-            display: block;
-            float: left;
-            padding: 50px 50px;
         }
     }
     /*
@@ -108,7 +110,8 @@ header{
 #main-wrapper
 {
     background: #4500a7;
-    width: 800px;
+    width: 100%;
+    max-width: 800px;
     margin: 0 auto;
 
     section {
@@ -160,13 +163,15 @@ header{
 
 iframe{
     display: block;
+    overflow: auto;
     margin: 30px auto;
 }
+
 #slider {
     position: relative;
     display: block;
     margin: 30px auto;
-    z-index: 1;
+    //z-index: 1;
 }
 
 .carousel-inner img {
@@ -176,7 +181,7 @@ iframe{
 
 #partnerzy {
     height: 400px;
-    width: 100%;
+    max-width: 100%;
     background-color: #fff;
 }
 
@@ -184,6 +189,7 @@ footer {
     background-color: #4500a7;
     color: #fff;
     text-align: center;
+    width: 100%;
 }
 
 /* Sticky Header Style */
@@ -198,14 +204,13 @@ body.sticky-header{
             @include scale(0);
             transform: translate(0, 100%);
         }
+        #itadlogo-header{
+            @include scale(0);
+            transform: translate(0, 100%);
+        }
         #pollublogo{
             @include scale(0);
             transform: translate(100%, 0);
-        }
-        #floatlogo{
-            @include scale(0);
-            transform: translate(0, 100%);
-            visibility: visible;
         }
     }
 }
