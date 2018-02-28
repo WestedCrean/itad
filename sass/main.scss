@@ -10,7 +10,7 @@ body{
     background-color: #4500a7 !important;
     font-family: "Helvetica Neue", arial, sans-serif;
     font-size: 16px;
-    padding-top: 350px;
+    padding-top: 270px;
     @include transition(padding-top .5s ease);
 }
 
@@ -151,7 +151,7 @@ header{
     h2{
         font-size: 34px;
         text-transform: uppercase;
-        font-weight: 100;
+        font-weight: 500;
         line-height: 2;
         color: #09e980;
         text-align: center;

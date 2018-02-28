@@ -5,9 +5,9 @@ Error: File to import not found or unreadable: compass.
 1: @import "compass";
 2: @import "compass/css3";
 3: @import "compass/reset";
-4: *{
-5:     @include box-sizing(border-box);
-6: }
+4: 
+5: *{
+6:     @include box-sizing(border-box);
 
 Backtrace:
 main.scss:1
@@ -53,4 +53,4 @@ main.scss:1
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: compass.\A         on line 1 of main.scss\A \A 1: @import \"compass\";\A 2: @import \"compass/css3\";\A 3: @import \"compass/reset\";\A 4: *{\A 5:     @include box-sizing(border-box);\A 6: }"; }
+  content: "Error: File to import not found or unreadable: compass.\A         on line 1 of main.scss\A \A 1: @import \"compass\";\A 2: @import \"compass/css3\";\A 3: @import \"compass/reset\";\A 4: \A 5: *{\A 6:     @include box-sizing(border-box);"; }
