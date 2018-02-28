@@ -1,4 +1,6 @@
 $(document).ready(function() {
+    //cookies
+    jQuery.fn.cookiesEU();
     //Sticky navbar
     $(function(){
         $(window).scroll(function(){
