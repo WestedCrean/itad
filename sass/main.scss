@@ -10,7 +10,7 @@ body{
     background-color: #4500a7 !important;
     font-family: "Helvetica Neue", arial, sans-serif;
     font-size: 16px;
-    padding-top: 270px;
+    padding-top: 150px;
     @include transition(padding-top .5s ease);
 }
 
@@ -170,7 +170,6 @@ iframe{
 #slider {
     position: relative;
     display: block;
-    overflow: auto;
     margin: 30px auto;
     //z-index: 1;
 }
@@ -191,45 +190,6 @@ footer {
     color: #fff;
     text-align: center;
     width: 100%;
-}
-
-.cookieinfo{
-    position: fixed;
-    left: 0px;
-    right: 0px;
-    height: auto;
-    min-height: 21px;
-    z-index: 100000000000000000000;
-    background-color: rgb(100, 88, 98);
-    color: rgb(255, 255, 255);
-    line-height: 21px;
-    padding: 8px 18px;
-    font-family: verdana, arial, sans-serif;
-    font-size: 14px;
-    text-align: left;
-    bottom: 0px;
-    opacity: 1;
-    background-position: initial initial;
-    background-repeat: initial initial;
-}
-
-.cookieinfo-close{
-    float: right;
-    display: block;
-    padding: 5px 8px;
-    min-width: 100px;
-    margin-left: 5px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    cursor: pointer;
-    color: rgb(0, 0, 0);
-    background-color: rgb(241, 214, 0);
-    text-align: center;
-    background-position: initial initial;
-    background-repeat: initial initial;
-
 }
 
 /* Sticky Header Style */
