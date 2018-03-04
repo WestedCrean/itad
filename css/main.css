@@ -20,7 +20,6 @@ body {
 /* line 19, ../sass/main.scss */
 header {
   width: 100%;
-  height: 270px;
   background-color: #4500a7;
   text-align: center;
   position: fixed;
@@ -32,7 +31,25 @@ header {
   transition: all 0.5s ease-in, all 0.5s ease-in-out;
 }
 @media (min-width: 480px) {
-  /* line 29, ../sass/main.scss */
+  /* line 19, ../sass/main.scss */
+  header {
+    height: 350px;
+  }
+}
+@media (min-width: 600px) {
+  /* line 19, ../sass/main.scss */
+  header {
+    height: 300px;
+  }
+}
+@media (min-width: 900px) {
+  /* line 19, ../sass/main.scss */
+  header {
+    height: 270px;
+  }
+}
+@media (min-width: 480px) {
+  /* line 40, ../sass/main.scss */
   header #itadlogo-header {
     display: block;
     width: 240px;
@@ -45,13 +62,13 @@ header {
   }
 }
 @media (min-width: 600px) {
-  /* line 29, ../sass/main.scss */
+  /* line 40, ../sass/main.scss */
   header #itadlogo-header {
     width: 339px;
   }
 }
 @media (min-width: 480px) {
-  /* line 45, ../sass/main.scss */
+  /* line 56, ../sass/main.scss */
   header h1 {
     color: #fff;
     line-height: 100px;
@@ -66,7 +83,7 @@ header {
   }
 }
 @media (min-width: 960px) {
-  /* line 45, ../sass/main.scss */
+  /* line 56, ../sass/main.scss */
   header h1 {
     font-size: 42px;
     line-height: 230px;
@@ -74,12 +91,12 @@ header {
     font-weight: 100;
   }
 }
-/* line 65, ../sass/main.scss */
+/* line 76, ../sass/main.scss */
 header h1 .date {
   font-size: 0.5em;
   color: #09e980;
 }
-/* line 72, ../sass/main.scss */
+/* line 83, ../sass/main.scss */
 header img {
   text-align: right;
   padding: 30px 20px;
@@ -88,7 +105,7 @@ header img {
   -webkit-transition: all 0.5s ease-in, all 0.5s ease-in-out;
   transition: all 0.5s ease-in, all 0.5s ease-in-out;
 }
-/* line 78, ../sass/main.scss */
+/* line 89, ../sass/main.scss */
 header p {
   color: #e3e3e3;
   text-align: left;
@@ -97,7 +114,7 @@ header p {
   font-weight: lighter;
   text-transform: uppercase;
 }
-/* line 88, ../sass/main.scss */
+/* line 99, ../sass/main.scss */
 header nav {
   position: absolute;
   bottom: 0;
@@ -106,11 +123,11 @@ header nav {
   width: 100%;
   background-color: #381D94;
 }
-/* line 96, ../sass/main.scss */
+/* line 107, ../sass/main.scss */
 header nav .buttons {
   margin: 0 100px;
 }
-/* line 100, ../sass/main.scss */
+/* line 111, ../sass/main.scss */
 header nav a {
   color: #fff;
   display: inline-block;
@@ -119,14 +136,14 @@ header nav a {
   text-decoration: none;
   background-color: #381D94;
 }
-/* line 108, ../sass/main.scss */
+/* line 119, ../sass/main.scss */
 header nav a:hover {
   background-color: #4300b6;
   color: #fff;
   text-decoration: none;
 }
 
-/* line 117, ../sass/main.scss */
+/* line 128, ../sass/main.scss */
 #main-wrapper {
   overflow: hidden;
   background: #4500a7;
@@ -137,21 +154,21 @@ header nav a:hover {
   transition: margin-top 0.5s ease;
 }
 @media (min-width: 480px) {
-  /* line 117, ../sass/main.scss */
+  /* line 128, ../sass/main.scss */
   #main-wrapper {
     max-width: 480px;
     width: 100%;
   }
 }
 @media (min-width: 600px) {
-  /* line 117, ../sass/main.scss */
+  /* line 128, ../sass/main.scss */
   #main-wrapper {
     background: #4500a7;
     width: 100%;
     max-width: 800px;
   }
 }
-/* line 133, ../sass/main.scss */
+/* line 144, ../sass/main.scss */
 #main-wrapper section {
   padding: 20px;
   margin: 0 0 40px 0;
@@ -164,12 +181,12 @@ header nav a:hover {
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
 }
 @media (min-width: 480px) {
-  /* line 133, ../sass/main.scss */
+  /* line 144, ../sass/main.scss */
   #main-wrapper section {
     width: 100%;
   }
 }
-/* line 143, ../sass/main.scss */
+/* line 154, ../sass/main.scss */
 #main-wrapper section h2 {
   font-size: 34px;
   text-transform: uppercase;
@@ -178,24 +195,24 @@ header nav a:hover {
   color: #2c3e50;
   text-align: left;
 }
-/* line 152, ../sass/main.scss */
+/* line 163, ../sass/main.scss */
 #main-wrapper section p {
   margin-bottom: 2rem;
   line-height: 2;
   color: #7f8c8d;
 }
-/* line 157, ../sass/main.scss */
+/* line 168, ../sass/main.scss */
 #main-wrapper section p .highlight {
   color: #e9b600;
   text-transform: uppercase;
 }
 @media (mid-width: 480px) {
-  /* line 164, ../sass/main.scss */
+  /* line 175, ../sass/main.scss */
   #main-wrapper section #partnerzy {
     width: 100%;
   }
 }
-/* line 172, ../sass/main.scss */
+/* line 183, ../sass/main.scss */
 #main-wrapper a {
   display: block;
   position: relative;
@@ -203,7 +220,7 @@ header nav a:hover {
   margin: 20px 0;
   visibility: hidden;
 }
-/* line 180, ../sass/main.scss */
+/* line 191, ../sass/main.scss */
 #main-wrapper h2 {
   font-size: 34px;
   text-transform: uppercase;
@@ -213,7 +230,7 @@ header nav a:hover {
   text-align: center;
 }
 
-/* line 190, ../sass/main.scss */
+/* line 201, ../sass/main.scss */
 iframe {
   display: block !important;
   position: relative;
@@ -221,19 +238,19 @@ iframe {
   margin: 30px auto !important;
 }
 @media (min-width: 480px) {
-  /* line 190, ../sass/main.scss */
+  /* line 201, ../sass/main.scss */
   iframe {
     max-width: 100%;
   }
 }
 @media (min-width: 600px) {
-  /* line 190, ../sass/main.scss */
+  /* line 201, ../sass/main.scss */
   iframe {
     width: 600px;
   }
 }
 
-/* line 204, ../sass/main.scss */
+/* line 215, ../sass/main.scss */
 #slider {
   position: relative;
   display: block;
@@ -241,19 +258,19 @@ iframe {
   margin: 30px auto;
 }
 
-/* line 212, ../sass/main.scss */
+/* line 223, ../sass/main.scss */
 .carousel-inner img {
   margin: auto;
 }
 
-/* line 217, ../sass/main.scss */
+/* line 228, ../sass/main.scss */
 #partnerzy {
   height: 400px;
   max-width: 100%;
   background-color: #fff;
 }
 
-/* line 223, ../sass/main.scss */
+/* line 234, ../sass/main.scss */
 footer {
   background-color: #4500a7;
   color: #fff;
@@ -263,17 +280,17 @@ footer {
 
 /* Sticky Header Style */
 /* ---------------------------------------- */
-/* line 232, ../sass/main.scss */
+/* line 243, ../sass/main.scss */
 body.sticky-header {
   padding-top: 200px;
 }
-/* line 234, ../sass/main.scss */
+/* line 245, ../sass/main.scss */
 body.sticky-header header {
   height: 60px;
   z-index: 3;
   background-color: #3e1fa2;
 }
-/* line 238, ../sass/main.scss */
+/* line 249, ../sass/main.scss */
 body.sticky-header header h1 {
   -moz-transform: scale(0, 0);
   -ms-transform: scale(0, 0);
@@ -281,7 +298,7 @@ body.sticky-header header h1 {
   transform: scale(0, 0);
   transform: translate(0, 100%);
 }
-/* line 242, ../sass/main.scss */
+/* line 253, ../sass/main.scss */
 body.sticky-header header #itadlogo-header {
   -moz-transform: scale(0, 0);
   -ms-transform: scale(0, 0);
@@ -289,7 +306,7 @@ body.sticky-header header #itadlogo-header {
   transform: scale(0, 0);
   transform: translate(0, 100%);
 }
-/* line 246, ../sass/main.scss */
+/* line 257, ../sass/main.scss */
 body.sticky-header header #pollublogo {
   -moz-transform: scale(0, 0);
   -ms-transform: scale(0, 0);
@@ -297,7 +314,7 @@ body.sticky-header header #pollublogo {
   transform: scale(0, 0);
   transform: translate(100%, 0);
 }
-/* line 252, ../sass/main.scss */
+/* line 263, ../sass/main.scss */
 body.sticky-header #main-wrapper {
   margin: 0 auto;
 }
