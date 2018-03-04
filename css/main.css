@@ -171,10 +171,12 @@ header nav a:hover {
 /* line 156, ../sass/main.scss */
 iframe {
   display: block;
+  position: relative;
+  overflow: auto;
   margin: 30px auto;
 }
 
-/* line 162, ../sass/main.scss */
+/* line 163, ../sass/main.scss */
 #slider {
   position: relative;
   display: block;
@@ -182,19 +184,19 @@ iframe {
   margin: 30px auto;
 }
 
-/* line 170, ../sass/main.scss */
+/* line 171, ../sass/main.scss */
 .carousel-inner img {
   margin: auto;
 }
 
-/* line 175, ../sass/main.scss */
+/* line 176, ../sass/main.scss */
 #partnerzy {
   height: 400px;
   max-width: 100%;
   background-color: #fff;
 }
 
-/* line 181, ../sass/main.scss */
+/* line 182, ../sass/main.scss */
 footer {
   background-color: #4500a7;
   color: #fff;
@@ -204,17 +206,17 @@ footer {
 
 /* Sticky Header Style */
 /* ---------------------------------------- */
-/* line 190, ../sass/main.scss */
+/* line 191, ../sass/main.scss */
 body.sticky-header {
   padding-top: 200px;
 }
-/* line 192, ../sass/main.scss */
+/* line 193, ../sass/main.scss */
 body.sticky-header header {
   height: 60px;
   z-index: 3;
   background-color: #3e1fa2;
 }
-/* line 196, ../sass/main.scss */
+/* line 197, ../sass/main.scss */
 body.sticky-header header h1 {
   -moz-transform: scale(0, 0);
   -ms-transform: scale(0, 0);
@@ -222,7 +224,7 @@ body.sticky-header header h1 {
   transform: scale(0, 0);
   transform: translate(0, 100%);
 }
-/* line 200, ../sass/main.scss */
+/* line 201, ../sass/main.scss */
 body.sticky-header header #itadlogo-header {
   -moz-transform: scale(0, 0);
   -ms-transform: scale(0, 0);
@@ -230,7 +232,7 @@ body.sticky-header header #itadlogo-header {
   transform: scale(0, 0);
   transform: translate(0, 100%);
 }
-/* line 204, ../sass/main.scss */
+/* line 205, ../sass/main.scss */
 body.sticky-header header #pollublogo {
   -moz-transform: scale(0, 0);
   -ms-transform: scale(0, 0);
@@ -238,7 +240,7 @@ body.sticky-header header #pollublogo {
   transform: scale(0, 0);
   transform: translate(100%, 0);
 }
-/* line 210, ../sass/main.scss */
+/* line 211, ../sass/main.scss */
 body.sticky-header #main-wrapper {
   margin: 0 auto;
 }
