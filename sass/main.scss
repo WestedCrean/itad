@@ -27,24 +27,40 @@ header{
     @include transition(all 0.5s ease-in, all 0.5s ease-in-out);
 
     #itadlogo-header {
-        display: block;
-        float: left;
-        //padding: 50px 50px;
-        margin: 10px auto;
-        @include transition(all 0.3s ease-in-out, all 0.3s ease-in-out);
+        @media (min-width:480px){
+            display: block;
+            width: 240px;
+            float: left;
+            //padding: 50px 50px;
+            margin: 10px auto;
+            @include transition(all 0.3s ease-in-out, all 0.3s ease-in-out);
+
+        }
+        
+        @media (min-width:600px) {
+            width: 339px;
+        }
     }
 
     h1{
-        font-size: 42px;
-        color: #fff;
-        line-height: 230px;
-        //margin: 0 100px 0 0;
-        display: block;
-        float: left;
+        @media (min-width:480px) {
+            color: #fff;
+            line-height: 100px;
+            font-size: 20px;
+            //margin: 0 100px 0 0;
+            display: block;
+            float: left;
 
-        text-transform: uppercase;
-        font-weight: 100;
-        @include transition(all 0.3s ease-in-out, all 0.3s ease-in-out);
+            text-transform: uppercase;
+            @include transition(all 0.3s ease-in-out, all 0.3s ease-in-out);
+        }
+
+        @media(min-width: 960px){
+            font-size: 42px;
+            line-height: 230px;
+            display: block;
+            font-weight: 100;
+        }
 
         .date{
             font-size: 0.5em;
@@ -176,6 +192,13 @@ iframe{
     position: relative;
     overflow: auto;
     margin: 30px auto !important;
+    @media (min-width:480px) {
+        max-width: 100%;
+    }
+
+    @media (min-width:600px){
+        width:600px;
+    }
 }
 
 #slider {
