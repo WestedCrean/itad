@@ -104,7 +104,7 @@ header{
     background: #4500a7;
     margin: 300px auto 0 auto;
     @include transition(margin-top .5s ease);
-    
+
     @media (min-width:480px) {
         max-width: 480px;
         width: 100%;
