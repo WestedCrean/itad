@@ -170,7 +170,7 @@ header nav a:hover {
 
 /* line 156, ../sass/main.scss */
 iframe {
-  display: block;
+  display: block !important;
   position: relative;
   overflow: auto;
   margin: 30px auto;
