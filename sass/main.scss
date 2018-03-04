@@ -104,6 +104,7 @@ header{
     width: 100%;
     max-width: 800px;
     margin: 300px auto 0 auto;
+    @include transition(margin-top .5s ease);
 
     section {
         padding: 20px;
@@ -204,5 +205,9 @@ body.sticky-header{
             @include scale(0);
             transform: translate(100%, 0);
         }
+    }
+
+    #main-wrapper {
+        margin: 0 auto;
     }
 }
