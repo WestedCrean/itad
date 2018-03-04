@@ -11,7 +11,6 @@ body{
     font-family: "Helvetica Neue", arial, sans-serif;
     font-size: 16px;
     padding-top: 250px;
-    margin-top:100px;
     @include transition(padding-top .5s ease);
 }
 
@@ -104,7 +103,7 @@ header{
     background: #4500a7;
     width: 100%;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 100px auto 0 auto;
 
     section {
         padding: 20px;
@@ -155,13 +154,14 @@ header{
 
 iframe{
     display: block;
-    overflow: auto;
+    //overflow: auto;
     margin: 30px auto;
 }
 
 #slider {
     position: relative;
     display: block;
+    overflow: auto;
     margin: 30px auto;
     //z-index: 1;
 }
