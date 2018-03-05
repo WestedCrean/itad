@@ -293,9 +293,46 @@ iframe {
   height: 400px;
   max-width: 100%;
   background-color: #fff;
+  text-align: center;
+}
+@media (min-width: 480px) {
+  /* line 257, ../sass/main.scss */
+  #partnerzy img {
+    width: 480px;
+  }
+}
+@media (min-width: 600px) {
+  /* line 257, ../sass/main.scss */
+  #partnerzy img {
+    width: 600px;
+  }
+}
+@media (min-width: 800px) {
+  /* line 257, ../sass/main.scss */
+  #partnerzy img {
+    width: 800px;
+  }
+}
+@media (min-width: 480px) {
+  /* line 272, ../sass/main.scss */
+  #partnerzy .pojedyncze_logo {
+    width: 480px;
+  }
+}
+@media (min-width: 600px) {
+  /* line 272, ../sass/main.scss */
+  #partnerzy .pojedyncze_logo {
+    width: 600px;
+  }
+}
+@media (min-width: 800px) {
+  /* line 272, ../sass/main.scss */
+  #partnerzy .pojedyncze_logo {
+    width: 800px;
+  }
 }
 
-/* line 255, ../sass/main.scss */
+/* line 289, ../sass/main.scss */
 footer {
   background-color: #4500a7;
   color: #fff;
@@ -305,17 +342,17 @@ footer {
 
 /* Sticky Header Style */
 /* ---------------------------------------- */
-/* line 264, ../sass/main.scss */
+/* line 298, ../sass/main.scss */
 body.sticky-header {
   padding-top: 200px;
 }
-/* line 266, ../sass/main.scss */
+/* line 300, ../sass/main.scss */
 body.sticky-header header {
   height: 60px;
   z-index: 3;
   background-color: #3e1fa2;
 }
-/* line 270, ../sass/main.scss */
+/* line 304, ../sass/main.scss */
 body.sticky-header header h1 {
   -moz-transform: scale(0, 0);
   -ms-transform: scale(0, 0);
@@ -323,7 +360,7 @@ body.sticky-header header h1 {
   transform: scale(0, 0);
   transform: translate(0, 100%);
 }
-/* line 274, ../sass/main.scss */
+/* line 308, ../sass/main.scss */
 body.sticky-header header #itadlogo-header {
   -moz-transform: scale(0, 0);
   -ms-transform: scale(0, 0);
@@ -331,7 +368,7 @@ body.sticky-header header #itadlogo-header {
   transform: scale(0, 0);
   transform: translate(0, 100%);
 }
-/* line 278, ../sass/main.scss */
+/* line 312, ../sass/main.scss */
 body.sticky-header header #pollublogo {
   -moz-transform: scale(0, 0);
   -ms-transform: scale(0, 0);
@@ -339,7 +376,7 @@ body.sticky-header header #pollublogo {
   transform: scale(0, 0);
   transform: translate(100%, 0);
 }
-/* line 284, ../sass/main.scss */
+/* line 318, ../sass/main.scss */
 body.sticky-header #main-wrapper {
   margin: 0 auto;
 }
