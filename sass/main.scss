@@ -323,7 +323,6 @@ body.sticky-header{
         height: 60px;
         z-index: 100000;
         background-color: rgb(62,31,162);
-        //background-color: #fff;
         h1{
             @include scale(0);
             transform: translate(0, 100%);
