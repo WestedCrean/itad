@@ -1,6 +1,6 @@
 /* Variables */
 html {
-  background-color: #e3e3e3;
+  background-color: #fff;
   color: #1c1c1c;
   font-family: 'Lato', sans-serif;
   font-size: 20px;
@@ -30,7 +30,7 @@ body {
     font-size: 70%;
     font-weight: 300;
     line-height: 50px;
-    color: #e3e3e3;
+    color: #fff;
     text-transform: uppercase;
     letter-spacing: 3px;
     transition: all 0.3s ease-in-out; }
@@ -94,7 +94,7 @@ p {
   width: 20%;
   height: 1px;
   margin: 20px auto;
-  background-color: #e3e3e3; }
+  background-color: #fff; }
 
 .dark-line:after {
   display: block;
@@ -105,7 +105,7 @@ p {
   background-color: #1c1c1c; }
 
 .light {
-  color: #e3e3e3; }
+  color: #fff; }
 
 a:link,
 a:visited {
@@ -166,7 +166,7 @@ a:active {
   width: 70px;
   border: 1px solid #343d63;
   background-color: #343d63;
-  fill: #e3e3e3;
+  fill: #fff;
   border-radius: 50%;
   padding: 20px; }
 
@@ -190,7 +190,7 @@ a:active {
     border: 1px solid #7786c2;
     border-radius: 40px;
     font-weight: 700;
-    color: #e3e3e3;
+    color: #fff;
     background-color: #7786c2; }
 
 /* Section: Gallery */
