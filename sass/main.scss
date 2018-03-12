@@ -2,12 +2,23 @@
 @import "compass/css3";
 //@import "compass/reset";
 
+$headerColor: #231b97;
+$navcolor: #170e8a;
+$navlinkcolor: #fff;
+
+$backgroundColor: #231b97;
+$headerTitle: #fff;
+$sectionColor: #fff;
+
+
+
+
 *{
     @include box-sizing(border-box);
 }
 
 body{
-    background-color: #4500a7 !important;
+    background-color: $backgroundColor !important;
     font-family: "Helvetica Neue", arial, sans-serif;
     font-size: 16px;
     padding: 400px 0 0 0;
@@ -19,9 +30,7 @@ body{
 header{
     width: 100%;
     height: 400px;
-    background-color: #4500a7;
-    //background-color: #fff;
-
+    background-color: $backgroundColor;
     text-align: center;
     position: fixed;
     top: 0;
@@ -34,7 +43,6 @@ header{
             display: block;
             width: 240px;
             float: left;
-            //padding: 50px 50px;
             margin: 10px auto;
             @include transition(all 0.3s ease-in-out, all 0.3s ease-in-out);
 
@@ -129,22 +137,22 @@ header{
         height: 60px;
         line-height: 48px;
         width: 100%;
-        background-color: #381D94;
+        background-color: $navcolor;
 
         .buttons{
             margin: 0 100px;
         }
 
         a{
-            color: #fff;
+            color: $navlinkcolor;
             display: inline-block;
             padding: 22px 15px;
             line-height: 1;
             text-decoration: none;
-            background-color: #381D94;
+            background-color: $navcolor;
 
             &:hover{
-                background-color: #4300b6;
+                background-color: $backgroundColor;
                 color: #fff;
                 text-decoration: none;
             }
@@ -155,29 +163,33 @@ header{
 #main-wrapper
 {
     overflow: hidden;
-    background: #4500a7;
+    background: $backgroundColor;
     margin: 450px auto 0 auto;
     @include transition(margin-top .5s ease);
+    
 
-    @media (min-width:360px) {
-        max-width: 360px;
-        width: 100%;
-    }
-    @media (min-width: 600px) {
-        background: #4500a7;
-        width: 100%;
-        max-width: 800px;
-    }
     section {
         padding: 20px;
         margin: 0 0 40px 0;
         background-color: #fff;
-        @include border-radius(4px);
+        width: 100%;
+        max-width: 1400;
+
         @include box-shadow(0 1px 0 rgba(0, 0, 0, .2));
         
-        @media (min-width: 480px){
-            width: 100%;
+        #co{
+            display: block;
+            margin: 0 auto;
+            @media (min-width:360px) {
+                max-width: 360px;
+                width: 100%;
+            }
+            @media (min-width: 600px) {
+                width: 100%;
+                max-width: 800px;
+            }
         }
+        
         h2{
             font-size: 34px;
             text-transform: uppercase;
@@ -293,7 +305,7 @@ iframe{
 }
 
 footer {
-    background-color: #4500a7;
+    background-color: $backgroundColor;
     color: #e3e3e3;
     text-align: center;
     width: 100%;
