@@ -1,8 +1,8 @@
 /* Variables */
 
-$lightBlue: #7786c2;
+$lightBlue: #4c00ff;
 $darkBlue: #343d63;
-$light: #fff;
+$light: #e3e3e3;
 $dark: #1c1c1c;
 html {
     background-color: $light;
@@ -238,7 +238,7 @@ a:active {
 }
 
 .gallery {
-    width: 50%;
+    width: 75%;
     margin: 0 auto;
     padding-bottom: 100px;
 }
@@ -246,6 +246,7 @@ a:active {
 /* Section: Sponsors */
 
 .section-sponsors {
+    background-color: #fff;
     img {
         width: 50%;
         margin: 0 auto;
