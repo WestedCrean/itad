@@ -1,4 +1,3 @@
-/* Variables */
 html {
   background-color: #e3e3e3;
   color: #1c1c1c;
@@ -16,7 +15,7 @@ body {
 .navbar-wrapper {
   width: 100%;
   margin: 0;
-  background: #3200a7;
+  background: #7786c2;
   line-height: 25px;
   height: 50px;
   display: block;
@@ -114,7 +113,27 @@ a:visited {
 
 a:hover,
 a:active {
-  color: #3200a7; }
+  color: #7786c2; }
+
+a.button {
+  appearance: button;
+  text-decoration: none;
+  margin-top: 50px;
+  background-color: #7786c2;
+  color: #e3e3e3;
+  border: 1px solid #7786c2;
+  border-radius: 20px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.5vw;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out; }
+
+a.button:hover {
+  background-color: #343d63;
+  color: #e3e3e3;
+  border: 1px solid #343d63; }
 
 /* Section: Welcome Page */
 .section-welcome {
@@ -139,7 +158,7 @@ a:active {
   transform: translate(-50%, -50%); }
 
 .swipe-down:hover {
-  color: #3200a7;
+  color: #7786c2;
   cursor: pointer; }
 
 /* Section: About */
@@ -158,7 +177,7 @@ a:active {
   font-weight: 300;
   letter-spacing: 2px;
   text-align: center;
-  color: #3200a7;
+  color: #7786c2;
   margin-bottom: 100px; }
 
 /* Section: Map */
@@ -187,11 +206,11 @@ a:active {
     line-height: 40px;
     padding: 5px;
     margin: 10px;
-    border: 1px solid #3200a7;
+    border: 1px solid #7786c2;
     border-radius: 40px;
     font-weight: 700;
     color: #e3e3e3;
-    background-color: #3200a7; }
+    background-color: #7786c2; }
 
 /* Section: Gallery */
 .section-gallery {
@@ -203,11 +222,9 @@ a:active {
   padding-bottom: 100px; }
 
 /* Section: Sponsors */
-.section-sponsors {
-  background-color: #fff; }
-  .section-sponsors img {
-    width: 50%;
-    margin: 0 auto; }
+.section-sponsors img {
+  width: 50%;
+  margin: 0 auto; }
 
 .sponsors {
   margin-bottom: 100px; }
@@ -215,7 +232,7 @@ a:active {
 /* Footer */
 footer p {
   font-size: 10px;
-  color: #3200a7;
+  color: #7786c2;
   text-align: center; }
 
 /* RWD */
@@ -253,7 +270,7 @@ footer p {
   .navbar a:link,
   .navbar a:visited {
     padding: 0 20px;
-    background-color: #3200a7; } }
+    background-color: #7786c2; } }
 @media all and (max-width: 600px) {
   .welcome-container {
     width: 80%; }
@@ -262,7 +279,8 @@ footer p {
   .timer {
     font-size: 6vw; }
 
-  h2 {
+  h2,
+  a.button {
     font-size: 3vw; }
 
   h3 {
@@ -288,7 +306,8 @@ footer p {
   h1 {
     font-size: 3vw; }
 
-  h2 {
+  h2,
+  a.button {
     font-size: 2vw; } }
 
 /*# sourceMappingURL=style.css.map */
