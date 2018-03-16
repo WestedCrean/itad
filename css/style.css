@@ -16,7 +16,7 @@ body {
 .navbar-wrapper {
   width: 100%;
   margin: 0;
-  background: #4c00ff;
+  background: #3200a7;
   line-height: 25px;
   height: 50px;
   display: block;
@@ -114,7 +114,7 @@ a:visited {
 
 a:hover,
 a:active {
-  color: #4c00ff; }
+  color: #3200a7; }
 
 /* Section: Welcome Page */
 .section-welcome {
@@ -139,7 +139,7 @@ a:active {
   transform: translate(-50%, -50%); }
 
 .swipe-down:hover {
-  color: #4c00ff;
+  color: #3200a7;
   cursor: pointer; }
 
 /* Section: About */
@@ -158,7 +158,7 @@ a:active {
   font-weight: 300;
   letter-spacing: 2px;
   text-align: center;
-  color: #4c00ff;
+  color: #3200a7;
   margin-bottom: 100px; }
 
 /* Section: Map */
@@ -187,18 +187,18 @@ a:active {
     line-height: 40px;
     padding: 5px;
     margin: 10px;
-    border: 1px solid #4c00ff;
+    border: 1px solid #3200a7;
     border-radius: 40px;
     font-weight: 700;
     color: #e3e3e3;
-    background-color: #4c00ff; }
+    background-color: #3200a7; }
 
 /* Section: Gallery */
 .section-gallery {
   background-color: #1c1c1c; }
 
 .gallery {
-  width: 50%;
+  width: 75%;
   margin: 0 auto;
   padding-bottom: 100px; }
 
@@ -215,7 +215,7 @@ a:active {
 /* Footer */
 footer p {
   font-size: 10px;
-  color: #4c00ff;
+  color: #3200a7;
   text-align: center; }
 
 /* RWD */
@@ -253,7 +253,7 @@ footer p {
   .navbar a:link,
   .navbar a:visited {
     padding: 0 20px;
-    background-color: #4c00ff; } }
+    background-color: #3200a7; } }
 @media all and (max-width: 600px) {
   .welcome-container {
     width: 80%; }
