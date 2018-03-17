@@ -136,6 +136,28 @@ a:active {
     color: $lightBlue;
 }
 
+a.button {
+    appearance: button;
+    text-decoration: none;
+    margin-top: 50px;
+    background-color: $lightBlue;
+    color: $light;
+    border: 1px solid $lightBlue;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.5vw;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+a.button:hover {
+    background-color: $darkBlue;
+    color: $light;
+    border: 1px solid $darkBlue;
+}
+
 /* Section: Welcome Page */
 
 .section-welcome {
