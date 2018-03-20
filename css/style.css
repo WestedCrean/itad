@@ -16,7 +16,7 @@ body {
 .navbar-wrapper {
   width: 100%;
   margin: 0;
-  background: #3200a7;
+  background: #3d00ca;
   line-height: 25px;
   height: 50px;
   display: block;
@@ -114,15 +114,15 @@ a:visited {
 
 a:hover,
 a:active {
-  color: #3200a7; }
+  color: #3d00ca; }
 
 a.button {
   appearance: button;
   text-decoration: none;
   margin-top: 50px;
-  background-color: #3200a7;
+  background-color: #3d00ca;
   color: #e3e3e3;
-  border: 1px solid #3200a7;
+  border: 1px solid #3d00ca;
   border-radius: 20px;
   padding: 10px 20px;
   text-transform: uppercase;
@@ -159,7 +159,7 @@ a.button:hover {
   transform: translate(-50%, -50%); }
 
 .swipe-down:hover {
-  color: #3200a7;
+  color: #3d00ca;
   cursor: pointer; }
 
 /* Section: About */
@@ -178,7 +178,7 @@ a.button:hover {
   font-weight: 300;
   letter-spacing: 2px;
   text-align: center;
-  color: #3200a7;
+  color: #3d00ca;
   margin-bottom: 100px; }
 
 /* Section: Map */
@@ -207,11 +207,11 @@ a.button:hover {
     line-height: 40px;
     padding: 5px;
     margin: 10px;
-    border: 1px solid #3200a7;
+    border: 1px solid #3d00ca;
     border-radius: 40px;
     font-weight: 700;
     color: #e3e3e3;
-    background-color: #3200a7; }
+    background-color: #3d00ca; }
 
 /* Section: Gallery */
 .section-gallery {
@@ -235,7 +235,7 @@ a.button:hover {
 /* Footer */
 footer p {
   font-size: 10px;
-  color: #3200a7;
+  color: #3d00ca;
   text-align: center; }
 
 /* RWD */
@@ -273,7 +273,7 @@ footer p {
   .navbar a:link,
   .navbar a:visited {
     padding: 0 20px;
-    background-color: #3200a7; } }
+    background-color: #3d00ca; } }
 @media all and (max-width: 600px) {
   .welcome-container {
     width: 80%; }
