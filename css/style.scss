@@ -270,13 +270,19 @@ a.button:hover {
 .section-sponsors {
     background-color: #fff;
     img {
-        width: 50%;
-        margin: 0 auto;
-    }
+        width: 40%;
+    }  
 }
 
 .sponsors {
     margin-bottom: 100px;
+}
+
+.row {
+    margin: 0 auto;
+    img {
+        float: center;
+    }
 }
 
 /* Footer */

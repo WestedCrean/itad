@@ -226,11 +226,15 @@ a.button:hover {
 .section-sponsors {
   background-color: #fff; }
   .section-sponsors img {
-    width: 50%;
-    margin: 0 auto; }
+    width: 40%; }
 
 .sponsors {
   margin-bottom: 100px; }
+
+.row {
+  margin: 0 auto; }
+  .row img {
+    float: center; }
 
 /* Footer */
 footer p {
