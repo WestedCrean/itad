@@ -234,6 +234,7 @@ a.button:hover {
 .row {
   margin: 0 auto; }
   .row img {
+    width: 33%;
     float: center; }
 
 /* Footer */
