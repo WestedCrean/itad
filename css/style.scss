@@ -1,6 +1,6 @@
 /* Variables */
 
-$lightBlue: #3d00ca;
+$lightBlue: #5c17fd;
 $darkBlue: #343d63;
 $light: #e3e3e3;
 $dark: #1c1c1c;
@@ -213,6 +213,60 @@ a.button:hover {
     margin-bottom: 100px;
 }
 
+.prelegenci {
+    
+}
+
+.prelegent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        align-self: center;
+    }
+
+    p {
+        line-height: 0;
+    }
+
+    i {
+        margin-top: 4px;
+    }
+}
+
+.round-img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.thicker {
+    font-weight: bolder;
+}
+
+input {
+    opacity: 0;
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+}
+
+.intro-chevron {
+    padding: 0 100px;
+    z-index: 1;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.intro {
+    display: none;
+    overflow: auto;
+    transition: all 0.25s ease-in-out;
+}
 /* Section: Map */
 
 .section-map {
@@ -281,7 +335,7 @@ a.button:hover {
 .row {
     margin: 0 auto;
     img {
-        width: 33%;
+        width: 25%;
         float: center;
     }
 }
