@@ -267,11 +267,11 @@ input {
     width: 30%;
     padding: 0 auto;
     display: none;
-    overflow: auto;
+    overflow: wrap;
     transition: all 0.25s ease-in-out;
 
     p {
-        font-size: 15px;
+        font-size: 14px;
         letter-spacing: normal;
         line-height: normal;
     }
