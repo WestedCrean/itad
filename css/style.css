@@ -182,6 +182,9 @@ a.button:hover {
   margin-bottom: 100px; }
 
 .prelegent {
+  float: left;
+  width: 50%;
+  margin: 0 auto 50px auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -216,8 +219,7 @@ input {
   transition: 0.4s; }
 
 .speaker-intro {
-  height: 150px;
-  width: 30%;
+  width: 50%;
   padding: 0 auto;
   display: none;
   overflow: wrap;
