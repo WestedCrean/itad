@@ -262,10 +262,19 @@ input {
     transition: 0.4s;
 }
 
-.intro {
+.speaker-intro {
+    height: 150px;
+    width: 30%;
+    padding: 0 auto;
     display: none;
     overflow: auto;
     transition: all 0.25s ease-in-out;
+
+    p {
+        font-size: 15px;
+        letter-spacing: normal;
+        line-height: normal;
+    }
 }
 /* Section: Map */
 

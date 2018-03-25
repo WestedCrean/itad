@@ -169,20 +169,17 @@ $('a[href*="#"]')
 }
 
 // Accordions
-var acc = document.getElementsByClassName("intro-chevron");
-
+// get array of all speakers' intros div
+var acc = document.getElementsByClassName("prelegent");
 for (var i = 0, acclength = acc.length; i < acc.length; i++) {
-    acc[i].addEventListener("click", function() {
-        /* Toggle between adding and removing the "active" class,
-        to highlight the button that controls the panel */
-        this.classList.toggle("active");
-
-        /* Toggle between hiding and showing the active panel */
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-            panel.style.display = "none";
+    var chevron = acc[i].childNodes;
+    chevron = chevron[7];
+    chevron.addEventListener("click", function() {
+        var intro = this.nextElementSibling;
+        if (intro.style.display === "block") {
+            intro.style.display = "none";
         } else {
-            panel.style.display = "block";
+            intro.style.display = "block";
         }
     });
 }
