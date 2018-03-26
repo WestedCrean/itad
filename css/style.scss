@@ -214,16 +214,16 @@ a.button:hover {
 }
 
 .container-prelegenci {
-    //float: left;
+    display: flex;
+    flex-direction: row;
 }
 
 .prelegent {
-    float: left;
     width: 50%;
     margin: 0 auto 50px auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 
     img {
@@ -243,6 +243,10 @@ a.button:hover {
 .round-img {
     width: 150px;
     border-radius: 50%;
+}
+
+.title {
+    height: 60px;
 }
 
 .thicker {
@@ -267,6 +271,7 @@ input {
 }
 
 .speaker-intro {
+    height: 250px;
     width: 50%;
     padding: 0 auto;
     display: none;

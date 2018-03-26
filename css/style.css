@@ -181,13 +181,16 @@ a.button:hover {
   color: #5c17fd;
   margin-bottom: 100px; }
 
+.container-prelegenci {
+  display: flex;
+  flex-direction: row; }
+
 .prelegent {
-  float: left;
   width: 50%;
   margin: 0 auto 50px auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center; }
   .prelegent img {
     align-self: center; }
@@ -200,6 +203,9 @@ a.button:hover {
 .round-img {
   width: 150px;
   border-radius: 50%; }
+
+.title {
+  height: 60px; }
 
 .thicker {
   font-weight: bolder; }
@@ -220,6 +226,7 @@ input {
   transition: 0.4s; }
 
 .speaker-intro {
+  height: 250px;
   width: 50%;
   padding: 0 auto;
   display: none;
