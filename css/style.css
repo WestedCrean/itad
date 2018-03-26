@@ -192,7 +192,8 @@ a.button:hover {
   .prelegent img {
     align-self: center; }
   .prelegent p {
-    line-height: 0; }
+    line-height: 0;
+    text-align: center; }
   .prelegent i {
     margin-top: 4px; }
 
