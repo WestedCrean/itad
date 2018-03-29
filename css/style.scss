@@ -216,14 +216,15 @@ a.button:hover {
 .container-prelegenci {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .prelegent {
-    width: 50%;
     margin: 0 auto 50px auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    flex-wrap: wrap;
     align-items: center;
 
     img {
