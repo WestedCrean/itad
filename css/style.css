@@ -16,7 +16,7 @@ body {
 .navbar-wrapper {
   width: 100%;
   margin: 0;
-  background: #5c17fd;
+  background: #6f35f5;
   line-height: 25px;
   height: 50px;
   display: block;
@@ -114,15 +114,15 @@ a:visited {
 
 a:hover,
 a:active {
-  color: #5c17fd; }
+  color: #6f35f5; }
 
 a.button {
   appearance: button;
   text-decoration: none;
   margin-top: 50px;
-  background-color: #5c17fd;
+  background-color: #6f35f5;
   color: #e3e3e3;
-  border: 1px solid #5c17fd;
+  border: 1px solid #6f35f5;
   border-radius: 20px;
   padding: 10px 20px;
   text-transform: uppercase;
@@ -159,7 +159,7 @@ a.button:hover {
   transform: translate(-50%, -50%); }
 
 .swipe-down:hover {
-  color: #5c17fd;
+  color: #6f35f5;
   cursor: pointer; }
 
 /* Section: About */
@@ -178,7 +178,7 @@ a.button:hover {
   font-weight: 300;
   letter-spacing: 2px;
   text-align: center;
-  color: #5c17fd;
+  color: #6f35f5;
   margin-bottom: 100px; }
 
 .container-prelegenci {
@@ -264,11 +264,11 @@ input {
     line-height: 40px;
     padding: 5px;
     margin: 10px;
-    border: 1px solid #5c17fd;
+    border: 1px solid #6f35f5;
     border-radius: 40px;
     font-weight: 700;
     color: #e3e3e3;
-    background-color: #5c17fd; }
+    background-color: #6f35f5; }
 
 /* Section: Gallery */
 .section-gallery {
@@ -297,7 +297,7 @@ input {
 /* Footer */
 footer p {
   font-size: 10px;
-  color: #5c17fd;
+  color: #6f35f5;
   text-align: center; }
 
 /* RWD */
@@ -335,7 +335,7 @@ footer p {
   .navbar a:link,
   .navbar a:visited {
     padding: 0 20px;
-    background-color: #5c17fd; } }
+    background-color: #6f35f5; } }
 @media all and (max-width: 600px) {
   .welcome-container {
     width: 80%; }
