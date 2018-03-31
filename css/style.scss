@@ -217,9 +217,11 @@ a.button:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .prelegent {
+    width: 300px;
     margin: 0 auto 50px auto;
     display: flex;
     flex-direction: column;
