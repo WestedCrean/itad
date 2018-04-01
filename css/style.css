@@ -12,6 +12,10 @@ body {
   margin: 0;
   padding: 0; }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden; }
+
 .navbar,
 .navbar-wrapper {
   width: 100%;
@@ -181,14 +185,7 @@ a.button:hover {
   color: #6f35f5;
   margin-bottom: 100px; }
 
-.container-prelegenci {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around; }
-
 .prelegent {
-  width: 300px;
   margin: 0 auto 50px auto;
   display: flex;
   flex-direction: column;
@@ -330,6 +327,12 @@ footer p {
 
   swipe-down {
     font-size: 1rem; }
+
+  .container-prelegenci {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; }
 
   .section-sponsors img {
     width: 80%; }
