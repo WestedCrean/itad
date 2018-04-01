@@ -219,11 +219,14 @@ a.button:hover {
 }
 
 .container-prelegenci {
+    display: flex;
+    justify-content: center;
     
 }
 
 .prelegent {
     margin: 0 auto 50px auto;
+    width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -275,8 +278,6 @@ input {
 }
 
 .speaker-intro {
-    height: 250px;
-    width: 50%;
     padding: 0 auto;
     display: none;
     overflow: wrap;
@@ -403,10 +404,7 @@ footer {
     }
 
     .container-prelegenci {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
+        flex-direction: column;
     }
 
     .section-sponsors {
