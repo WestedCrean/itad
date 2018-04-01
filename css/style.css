@@ -296,6 +296,9 @@ input {
     width: 25%;
     float: center; }
 
+.cookieinfo {
+  width: 98%; }
+
 /* Footer */
 footer p {
   font-size: 10px;
