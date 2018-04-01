@@ -334,6 +334,9 @@ footer p {
   .container-prelegenci {
     flex-direction: column; }
 
+  .prelegent {
+    width: 100%; }
+
   .section-sponsors img {
     width: 80%; }
 
