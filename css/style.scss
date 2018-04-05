@@ -217,7 +217,25 @@ a.button:hover {
     color: $lightBlue;
     margin-bottom: 100px;
 }
+/* Section Agenda */
 
+.section-agenda {
+    margin-bottom: 100px;
+
+    tr {
+        text-align: left;
+    }
+    th {
+        min-width: 200px;
+        padding: 20px 10px;
+        
+    }
+}
+
+/* Section Prelegenci */
+.section-prelegenci {
+    background-color: $dark;
+}
 .container-prelegenci {
     display: flex;
     justify-content: center;

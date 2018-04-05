@@ -185,6 +185,19 @@ a.button:hover {
   color: #6f35f5;
   margin-bottom: 100px; }
 
+/* Section Agenda */
+.section-agenda {
+  margin-bottom: 100px; }
+  .section-agenda tr {
+    text-align: left; }
+  .section-agenda th {
+    min-width: 200px;
+    padding: 20px 10px; }
+
+/* Section Prelegenci */
+.section-prelegenci {
+  background-color: #1c1c1c; }
+
 .container-prelegenci {
   display: flex;
   justify-content: center; }
