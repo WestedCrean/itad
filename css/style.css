@@ -325,9 +325,7 @@ input {
   font-size: 14px;
   text-align: left;
   bottom: 0px;
-  opacity: 1;
-  background-position: initial initial;
-  background-repeat: initial initial; }
+  opacity: 1; }
 
 .cookieinfo-close {
   float: right;
@@ -342,9 +340,7 @@ input {
   cursor: pointer;
   color: black;
   background-color: #f1d600;
-  text-align: center;
-  background-position: initial initial;
-  background-repeat: initial initial; }
+  text-align: center; }
 
 /* Footer */
 footer p {
