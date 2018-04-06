@@ -347,6 +347,10 @@ footer p {
   swipe-down {
     font-size: 1rem; }
 
+  .section-agenda th {
+    min-width: 0;
+    width: 100%; }
+
   .container-prelegenci {
     flex-direction: column; }
 
