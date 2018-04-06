@@ -382,6 +382,41 @@ input {
 
 .cookieinfo {
     width: 98%;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    height: auto;
+    min-height: 21px;
+    z-index: 100000000000000000000;
+    background-color: rgb(161, 161, 161);
+    color: rgb(22, 22, 22);
+    line-height: 21px;
+    padding: 8px 18px;
+    font-family: verdana, arial, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    bottom: 0px;
+    opacity: 1;
+    background-position: initial initial;
+    background-repeat: initial initial;
+}
+
+.cookieinfo-close {
+    float: right;
+    display: block;
+    padding: 5px 10px;
+    min-width: 100px;
+    margin-left: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-color: rgb(241, 214, 0);
+    text-align: center;
+    background-position: initial initial;
+    background-repeat: initial initial;
 }
 
 /* Footer */
@@ -456,7 +491,7 @@ footer {
 
 @media all and (max-width: 600px) {
     .welcome-container {
-        width: 100%;
+        width: 80%;
     }
     h1,
     .timer {
