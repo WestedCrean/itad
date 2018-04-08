@@ -13,7 +13,7 @@ body {
   padding: 0; }
 
 html, body {
-  max-width: 100%;
+  max-width: 1920px;
   overflow-x: hidden; }
 
 .navbar,
@@ -173,6 +173,9 @@ a.button:hover {
 .about-description {
   font-weight: 300;
   margin: 0 20%; }
+
+.youtube {
+  margin: 40px auto; }
 
 .about-timer {
   padding: 25px 0; }

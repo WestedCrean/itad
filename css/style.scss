@@ -20,7 +20,7 @@ body {
 }
 
 html, body {
-    max-width: 100%;
+    max-width: 1920px;
     overflow-x: hidden;
 }
 
@@ -205,6 +205,9 @@ a.button:hover {
     margin: 0 20%;
 }
 
+.youtube {
+    margin: 40px auto;
+}
 .about-timer {
     padding: 25px 0;
 }
