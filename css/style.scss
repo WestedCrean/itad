@@ -373,15 +373,6 @@ input {
 
 .sponsors {
     margin-bottom: 100px;
-
-    #microsoft{
-        width: 500px;
-    }
-
-    #eska {
-        margin: 20px auto;
-        max-width: 200px;
-    }
 }
 
 .row {
@@ -393,7 +384,7 @@ input {
 }
 
 .cookieinfo {
-    width: 98%;
+    max-width: 100%;
     position: fixed;
     left: 0px;
     right: 0px;
@@ -440,6 +431,9 @@ footer {
 /* RWD */
 
 @media all and (max-width: 800px) {
+    html,body {
+        width: 100% !important;
+    }
     .welcome-container {
         width: 60%;
     }
@@ -525,8 +519,8 @@ footer {
     swipe-down {
         font-size: 1rem;
     }
-    .cookieinfo{
-        
+    .youtube {
+        overflow: hidden;
     }
 }
 

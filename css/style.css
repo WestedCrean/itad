@@ -12,9 +12,6 @@ body {
   margin: 0;
   padding: 0; }
 
-html, body {
-  max-width: 100%; }
-
 .navbar,
 .navbar-wrapper {
   width: 100%;
@@ -306,11 +303,6 @@ input {
 
 .sponsors {
   margin-bottom: 100px; }
-  .sponsors #microsoft {
-    width: 500px; }
-  .sponsors #eska {
-    margin: 20px auto;
-    max-width: 200px; }
 
 .row {
   margin: 0 auto; }
@@ -319,7 +311,7 @@ input {
     float: center; }
 
 .cookieinfo {
-  width: 98%;
+  max-width: 100%;
   position: fixed;
   left: 0px;
   right: 0px;
@@ -359,6 +351,9 @@ footer p {
 
 /* RWD */
 @media all and (max-width: 800px) {
+  html, body {
+    width: 100% !important; }
+
   .welcome-container {
     width: 60%; }
 
@@ -429,7 +424,10 @@ footer p {
     margin-top: 25px; }
 
   swipe-down {
-    font-size: 1rem; } }
+    font-size: 1rem; }
+
+  .youtube {
+    overflow: hidden; } }
 @media screen and (orientation: landscape) {
   .welcome-container img {
     width: 40%; }
