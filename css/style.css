@@ -359,9 +359,6 @@ footer p {
 
 /* RWD */
 @media all and (max-width: 800px) {
-  body {
-    max-width: 800px; }
-
   .welcome-container {
     width: 60%; }
 
@@ -407,9 +404,6 @@ footer p {
     padding: 0 20px;
     background-color: #6f35f5; } }
 @media all and (max-width: 600px) {
-  body {
-    max-width: 600px; }
-
   .welcome-container {
     width: 80%; }
 

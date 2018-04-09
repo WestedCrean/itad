@@ -285,7 +285,7 @@ a.button:hover {
 
 input {
     opacity: 0;
-    //position: absolute;
+    
     cursor: pointer;
     width: 100%;
     height: 100%;
@@ -442,9 +442,6 @@ footer {
 /* RWD */
 
 @media all and (max-width: 800px) {
-    body {
-        max-width: 800px;
-    }
     .welcome-container {
         width: 60%;
     }
@@ -503,9 +500,6 @@ footer {
 }
 
 @media all and (max-width: 600px) {
-    body {
-        max-width: 600px;
-    }
     .welcome-container {
         width: 80%;
     }
