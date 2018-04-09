@@ -10,10 +10,10 @@ html {
 
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  max-width: 1920px; }
 
 html, body {
-  max-width: 1920px;
   overflow-x: hidden; }
 
 .navbar,
@@ -203,19 +203,22 @@ a.button:hover {
 
 .container-prelegenci {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  margin: 0 auto; }
 
 .prelegent {
   margin: 0 auto 50px auto;
-  width: 30%;
   display: flex;
+  width: 25%;
   flex-direction: column;
   justify-content: flex-start;
   flex-wrap: wrap;
   align-items: center; }
   .prelegent img {
+    width: 120px;
     align-self: center; }
   .prelegent p {
+    font-size: 16px;
     line-height: 0;
     text-align: center; }
   .prelegent i {

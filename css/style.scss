@@ -17,10 +17,10 @@ html {
 body {
     margin: 0;
     padding: 0;
+    max-width: 1920px;
 }
 
 html, body {
-    max-width: 1920px;
     overflow-x: hidden;
 }
 
@@ -242,23 +242,26 @@ a.button:hover {
 .container-prelegenci {
     display: flex;
     justify-content: center;
+    margin: 0 auto;
     
 }
 
 .prelegent {
-    margin: 0 auto 50px auto;
-    width: 30%;
+    margin:  0 auto 50px auto;
     display: flex;
+    width: 25%;
     flex-direction: column;
     justify-content: flex-start;
     flex-wrap: wrap;
     align-items: center;
 
     img {
+        width: 120px;
         align-self: center;
     }
 
     p {
+        font-size: 16px;
         line-height: 0;
         text-align: center;
     }
