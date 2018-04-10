@@ -354,12 +354,24 @@ input {
 
 .section-gallery {
     background-color: $dark;
+    padding-bottom: 100px;
 }
 
 .gallery {
     width: 75%;
     margin: 0 auto;
     padding-bottom: 100px;
+}
+
+.tiles {
+    background-color: $dark;
+    margin: 0 auto;
+
+    img {
+        width: 25%;
+        margin: 5px 5px;
+        cursor: pointer;
+    }
 }
 
 /* Section: Sponsors */
@@ -521,6 +533,12 @@ footer {
     }
     .youtube {
         overflow: hidden;
+    }
+    .tiles {
+        img {
+            width: 32%;
+            margin: 0 0;
+        }
     }
 }
 
