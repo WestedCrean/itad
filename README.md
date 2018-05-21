@@ -1,5 +1,5 @@
 # Strona IT Academic Day 2018 - Politechnika Lubelska
-Dostępna pod https://github.com/WestedCrean/itad
+Dostępna pod https://westedcrean.github.io/itad/
 
 ![](https://media.giphy.com/media/1rOq7W4TLHrnBC60Do/giphy.gif)
 
