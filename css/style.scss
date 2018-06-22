@@ -1,5 +1,4 @@
 /* Variables */
-
 $lightBlue: #6f35f5;
 $darkBlue: #343d63;
 $light: #e3e3e3;
@@ -13,14 +12,10 @@ html {
     text-rendering: optimizeLegibility;
     text-align: center;
 }
-
 body {
     margin: 0;
     padding: 0;
 }
-
-
-
 .navbar,
 .navbar-wrapper {
     width: 100%;
@@ -48,7 +43,6 @@ body {
         cursor: pointer;
     }
 }
-
 .sticky {
     position: fixed;
     width: 100%;
@@ -57,13 +51,10 @@ body {
     z-index: 100;
     border-top: 0;
 }
-
 /* Utilities */
-
 .clearfix {
     zoom: 1
 }
-
 .clearfix:after {
     content: '.';
     clear: both;
@@ -71,21 +62,18 @@ body {
     height: 0;
     visibility: hidden;
 }
-
 h1 {
     font-size: 3vw;
     letter-spacing: 3px;
     font-weight: 300;
     text-transform: uppercase;
 }
-
 h2 {
     font-size: 1.5vw;
     letter-spacing: 2px;
     font-weight: 400;
     text-transform: uppercase;
 }
-
 h3 {
     font-size: 1.5vw;
     letter-spacing: 2px;
@@ -94,17 +82,14 @@ h3 {
     padding: 75px;
     margin: 0;
 }
-
 p {
     letter-spacing: 1px;
     text-align: justify;
     line-height: 40px;
 }
-
 .in-section {
     padding: 20px;
 }
-
 .light-line:after {
     display: block;
     content: " ";
@@ -113,7 +98,6 @@ p {
     margin: 20px auto;
     background-color: $light;
 }
-
 .dark-line:after {
     display: block;
     content: " ";
@@ -122,22 +106,18 @@ p {
     margin: 20px auto;
     background-color: $dark;
 }
-
 .light {
     color: $light;
 }
-
 a:link,
 a:visited {
     color: $darkBlue;
     transition: color 0.2s ease-in-out;
 }
-
 a:hover,
 a:active {
     color: $lightBlue;
 }
-
 a.button {
     appearance: button;
     text-decoration: none;
@@ -153,19 +133,15 @@ a.button {
     cursor: pointer;
     transition: all 0.2s ease-in-out;
 }
-
 a.button:hover {
     background-color: $darkBlue;
     color: $light;
     border: 1px solid $darkBlue;
 }
-
 /* Section: Welcome Page */
-
 .section-welcome {
     height: 100vh;
 }
-
 .welcome-container {
     position: absolute;
     width: 30%;
@@ -173,7 +149,6 @@ a.button:hover {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 .swipe-down {
     text-align: center;
     font-size: 2rem;
@@ -185,30 +160,24 @@ a.button:hover {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 .swipe-down:hover {
     color: $lightBlue;
     cursor: pointer;
 }
-
 /* Section: About */
-
 .section-about {
     background-color: $dark;
 }
-
 .about-description {
     font-weight: 300;
     margin: 0 20%;
 }
-
 .youtube {
     margin: 40px auto;
 }
 .about-timer {
     padding: 25px 0;
 }
-
 .timer {
     font-size: 3vw;
     font-weight: 300;
@@ -218,7 +187,6 @@ a.button:hover {
     margin-bottom: 100px;
 }
 /* Section Agenda */
-
 .section-agenda {
     margin-bottom: 100px;
 
@@ -231,7 +199,6 @@ a.button:hover {
         
     }
 }
-
 /* Section Prelegenci */
 .section-prelegenci {
     background-color: $dark;
@@ -242,7 +209,6 @@ a.button:hover {
     margin: 0 auto;
     
 }
-
 .prelegent {
     margin:  0 auto 50px auto;
     display: flex;
@@ -251,59 +217,48 @@ a.button:hover {
     justify-content: flex-start;
     flex-wrap: wrap;
     align-items: center;
-
     img {
         width: 120px;
         align-self: center;
     }
-
     p {
         font-size: 16px;
         line-height: 0;
         text-align: center;
     }
-
     i {
         margin-top: 4px;
     }
 }
-
 .round-img {
     width: 150px;
     border-radius: 50%;
 }
-
 .title {
     height: 60px;
 }
-
 .thicker {
     font-weight: bolder;
 }
-
 input {
     opacity: 0;
-    
     cursor: pointer;
     width: 100%;
     height: 100%;
     z-index: 1;
     opacity: 0;
 }
-
 .intro-chevron {
     padding: 0 100px;
     z-index: 1;
     cursor: pointer;
     transition: 0.4s;
 }
-
 .speaker-intro {
     padding: 0 auto;
     display: none;
     overflow: wrap;
     transition: all 0.25s ease-in-out;
-
     p {
         font-size: 14px;
         letter-spacing: normal;
@@ -311,7 +266,6 @@ input {
     }
 }
 /* Section: Map */
-
 .section-map {
     svg {
         width: 70px;
@@ -322,15 +276,12 @@ input {
         padding: 20px;
     }
 }
-
 .map {
     margin: 40px 0;
 }
-
 .buses {
     margin: 100px 0;
 }
-
 .bus-lines {
     padding: 0;
     list-style: none;
@@ -356,13 +307,11 @@ input {
     background-color: $dark;
     padding-bottom: 100px;
 }
-
 .gallery {
     width: 75%;
     margin: 0 auto;
     padding-bottom: 100px;
 }
-
 .tiles {
     background-color: $dark;
     margin: 0 auto;
@@ -373,20 +322,16 @@ input {
         cursor: pointer;
     }
 }
-
 /* Section: Sponsors */
-
 .section-sponsors {
     background-color: #fff;
     img {
         width: 40%;
     }  
 }
-
 .sponsors {
     margin-bottom: 100px;
 }
-
 .row {
     margin: 0 auto;
     img {
@@ -394,7 +339,6 @@ input {
         float: center;
     }
 }
-
 .cookieinfo {
     max-width: 100%;
     position: fixed;
@@ -413,7 +357,6 @@ input {
     bottom: 0px;
     opacity: 1;
 }
-
 .cookieinfo-close {
     float: right;
     display: block;
@@ -429,9 +372,7 @@ input {
     background-color: rgb(241, 214, 0);
     text-align: center;
 }
-
 /* Footer */
-
 footer {
     p {
         font-size: 10px;
@@ -439,9 +380,7 @@ footer {
         text-align: center;
     }
 }
-
 /* RWD */
-
 @media all and (max-width: 800px) {
     html,body {
         width: 100% !important;
@@ -541,7 +480,6 @@ footer {
         }
     }
 }
-
 @media screen and (orientation: landscape) {
     .welcome-container {
         img {
