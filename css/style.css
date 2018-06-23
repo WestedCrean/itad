@@ -16,7 +16,7 @@ body {
 .navbar-wrapper {
   width: 100%;
   margin: 0;
-  background: #6f35f5;
+  background: #3557b8;
   line-height: 25px;
   height: 50px;
   display: block;
@@ -88,15 +88,7 @@ p {
 .in-section {
   padding: 20px; }
 
-.light-line:after {
-  display: block;
-  content: " ";
-  width: 20%;
-  height: 1px;
-  margin: 20px auto;
-  background-color: #e3e3e3; }
-
-.dark-line:after {
+.dark-line:after, .light-line:after {
   display: block;
   content: " ";
   width: 20%;
@@ -109,20 +101,20 @@ p {
 
 a:link,
 a:visited {
-  color: #343d63;
+  color: #4892d8;
   transition: color 0.2s ease-in-out; }
 
 a:hover,
 a:active {
-  color: #6f35f5; }
+  color: #3557b8; }
 
 a.button {
   appearance: button;
   text-decoration: none;
   margin-top: 50px;
-  background-color: #6f35f5;
+  background-color: #3557b8;
   color: #e3e3e3;
-  border: 1px solid #6f35f5;
+  border: 1px solid #3557b8;
   border-radius: 20px;
   padding: 10px 20px;
   text-transform: uppercase;
@@ -132,9 +124,9 @@ a.button {
   transition: all 0.2s ease-in-out; }
 
 a.button:hover {
-  background-color: #343d63;
+  background-color: #4892d8;
   color: #e3e3e3;
-  border: 1px solid #343d63; }
+  border: 1px solid #4892d8; }
 
 /* Section: Welcome Page */
 .section-welcome {
@@ -150,7 +142,7 @@ a.button:hover {
 .swipe-down {
   text-align: center;
   font-size: 2rem;
-  color: #343d63;
+  color: #4892d8;
   transition: color 0.2s ease-in-out;
   position: absolute;
   width: 100%;
@@ -159,7 +151,7 @@ a.button:hover {
   transform: translate(-50%, -50%); }
 
 .swipe-down:hover {
-  color: #6f35f5;
+  color: #3557b8;
   cursor: pointer; }
 
 /* Section: About */
@@ -181,7 +173,7 @@ a.button:hover {
   font-weight: 300;
   letter-spacing: 2px;
   text-align: center;
-  color: #6f35f5;
+  color: #3557b8;
   margin-bottom: 100px; }
 
 /* Section Agenda */
@@ -257,8 +249,8 @@ input {
 /* Section: Map */
 .section-map svg {
   width: 70px;
-  border: 1px solid #343d63;
-  background-color: #343d63;
+  border: 1px solid #4892d8;
+  background-color: #4892d8;
   fill: #e3e3e3;
   border-radius: 50%;
   padding: 20px; }
@@ -280,29 +272,11 @@ input {
     line-height: 40px;
     padding: 5px;
     margin: 10px;
-    border: 1px solid #6f35f5;
+    border: 1px solid #3557b8;
     border-radius: 40px;
     font-weight: 700;
     color: #e3e3e3;
-    background-color: #6f35f5; }
-
-/* Section: Gallery */
-.section-gallery {
-  background-color: #1c1c1c;
-  padding-bottom: 100px; }
-
-.gallery {
-  width: 75%;
-  margin: 0 auto;
-  padding-bottom: 100px; }
-
-.tiles {
-  background-color: #1c1c1c;
-  margin: 0 auto; }
-  .tiles img {
-    width: 25%;
-    margin: 5px 5px;
-    cursor: pointer; }
+    background-color: #3557b8; }
 
 /* Section: Sponsors */
 .section-sponsors {
@@ -320,22 +294,17 @@ input {
     float: center; }
 
 .cookieinfo {
+  font-family: 14px verdana, arial, sans-serif;
   max-width: 100%;
+  background-color: #a1a1a1;
   position: fixed;
-  left: 0px;
-  right: 0px;
+  bottom: 0px;
   height: auto;
   min-height: 21px;
-  z-index: 100000000000000000000;
-  background-color: #a1a1a1;
+  z-index: 10;
   color: #161616;
-  line-height: 21px;
   padding: 8px 18px;
-  font-family: verdana, arial, sans-serif;
-  font-size: 14px;
-  text-align: left;
-  bottom: 0px;
-  opacity: 1; }
+  text-align: left; }
 
 .cookieinfo-close {
   float: right;
@@ -343,10 +312,7 @@ input {
   padding: 5px 10px;
   min-width: 100px;
   margin-left: 5px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
+  border-radius: 20px;
   cursor: pointer;
   color: black;
   background-color: #f1d600;
@@ -355,7 +321,7 @@ input {
 /* Footer */
 footer p {
   font-size: 10px;
-  color: #6f35f5;
+  color: #3557b8;
   text-align: center; }
 
 /* RWD */
@@ -370,11 +336,10 @@ footer p {
   .timer {
     font-size: 5vw; }
 
-  h2 {
+  h2, h3 {
     font-size: 3vw; }
 
   h3 {
-    font-size: 3vw;
     padding: 40px; }
 
   p {
@@ -406,7 +371,7 @@ footer p {
   .navbar a:link,
   .navbar a:visited {
     padding: 0 20px;
-    background-color: #6f35f5; } }
+    background-color: #3557b8; } }
 @media all and (max-width: 600px) {
   .welcome-container {
     width: 80%; }
@@ -415,15 +380,13 @@ footer p {
   .timer {
     font-size: 6vw; }
 
-  h2 {
+  h2, h3, p {
     font-size: 3vw; }
 
   h3 {
-    font-size: 4vw;
     padding: 30px; }
 
   p {
-    font-size: 3vw;
     line-height: 20px; }
 
   .about-description {
